@@ -1,136 +1,140 @@
 <div align="center">
 
-# 👋 Hi, I'm Josin V
-
-### Java Full Stack Developer
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Java+%7C+Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;Backend+Development+%7C+REST+APIs;Always+Learning+and+Growing"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Josin%20V&fontSize=60&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=58"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/Open%20To-Work-success?style=for-the-badge"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;Backend+Development+%7C+REST+APIs;Open+to+Software+Developer+Opportunities"/>
 
-<img src="https://img.shields.io/badge/Location-Chennai-blue?style=for-the-badge"/>
+<br>
 
-<img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Java-Developer-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Spring_Boot-Backend-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MySQL-Database-informational?style=for-the-badge"/>
 
 </div>
 
 ---
 
-## 💼 Professional Summary
+# 👨‍💻 About Me
 
-Aspiring Java Full Stack Developer with experience in developing scalable web applications using Java, Spring Boot, React.js, and MySQL. Passionate about backend development, REST API design, and building efficient software solutions.
+```yaml
+Name: Josin V
 
----
+Location: Chennai, India
 
-## 🧑‍💻 Developer Profile
+Role: Java Full Stack Developer
 
-<table>
-<tr>
-<td width="50%">
+Education:
+  Degree: B.E Computer Science & Engineering
+  College: Vels Institute of Science, Technology & Advanced Studies
 
-### 👨‍💻 Basic Information
+Interests:
+  - Backend Development
+  - REST API Development
+  - Spring Boot
+  - Cybersecurity
+  - Software Architecture
 
-- 🎓 B.E Computer Science & Engineering
-- 💻 Java Full Stack Developer
-- 📍 Chennai, India
-- 🌱 Currently Learning System Design
-- 🚀 Open to Software Developer Opportunities
+Current Focus:
+  - Java
+  - Spring Boot
+  - React.js
+  - MySQL
+  - Spring Security
+  - JWT Authentication
 
-</td>
-
-<td width="50%">
-
-### 🎯 Interests
-
-- Backend Development
-- Spring Boot Applications
-- REST API Development
-- Database Design
-- Cybersecurity
-- Software Architecture
-
-</td>
-</tr>
-</table>
+Goal:
+  Become a Professional Software Engineer and build impactful products.
+```
 
 ---
 
-## 🛠️ Technology Stack
+# 🛠️ Technology Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,js,html,css,git,github,vscode,idea"/>
+<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,hibernate,git,github,vscode,idea,html,css,js"/>
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+# 💡 Technical Skills
 
-<table>
-<tr>
-<td width="50%">
-
-### 🛡️ AI-Based Cybersecurity Framework
-
-✔ Malicious IP Detection
-
-✔ URL Threat Analysis
-
-✔ Secure REST APIs
-
-✔ JWT Authentication
-
-✔ React Dashboard
-
-**Tech Stack**
-
-Java • Spring Boot • React • MySQL
-
-</td>
-
-<td width="50%">
-
-### 🍔 Food Ordering System
-
-✔ User Authentication
-
-✔ Cart Management
-
-✔ Order Management
-
-✔ REST APIs
-
-✔ MySQL Integration
-
-**Tech Stack**
-
-Java • Spring Boot • React • JWT • MySQL
-
-</td>
-</tr>
-</table>
+| Category | Skills |
+|-----------|-----------|
+| Programming | Java, JavaScript |
+| Backend | Spring Boot, Spring MVC, Spring Security, REST APIs |
+| Database | MySQL, Hibernate, JPA, SQL |
+| Frontend | React.js, HTML5, CSS3 |
+| Tools | Git, GitHub, VS Code, IntelliJ IDEA |
 
 ---
 
-## 📚 Core Skills
+# 🚀 Featured Projects
 
-<div align="center">
+## 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP & URL Detection
 
-| Backend | Frontend | Database | Tools |
-|----------|----------|----------|----------|
-| Java | React.js | MySQL | Git |
-| Spring Boot | JavaScript | JPA | GitHub |
-| Spring Security | HTML5 | Hibernate | IntelliJ |
-| REST APIs | CSS3 | SQL | VS Code |
+A full-stack cybersecurity platform designed to detect malicious IP addresses and suspicious URLs using intelligent threat analysis.
 
-</div>
+### Key Features
+
+- Malicious IP Detection
+- URL Threat Analysis
+- AI/ML-Based Monitoring
+- Secure REST APIs
+- JWT Authentication
+- React Dashboard
+- MySQL Integration
+
+### Technology Stack
+
+`Java` `Spring Boot` `Spring Security`
+`JWT` `React.js` `MySQL`
+`REST APIs`
 
 ---
 
-## 🎓 Certifications
+## 🍔 Food Ordering System
+
+A complete full-stack food ordering application with authentication, food management, cart management, and order processing.
+
+### Key Features
+
+- User Registration & Login
+- JWT Authentication
+- Food Management
+- Cart Management
+- Order Management
+- Order History
+- REST API Integration
+
+### Technology Stack
+
+`Java` `Spring Boot`
+`React.js`
+`MySQL`
+`Hibernate`
+`Spring Security`
+`JWT`
+
+---
+
+# 🎓 Education
+
+### Vels Institute of Science, Technology & Advanced Studies
+
+**B.E Computer Science & Engineering**
+
+📍 Chennai, India
+
+📅 2022 – 2026
+
+---
+
+# 🏆 Certifications & Training
 
 ### Java Full Stack Development Training
 
@@ -153,13 +157,33 @@ Completed practical training in:
 Completed hands-on internship focused on:
 
 - Full Stack Development
-- Backend APIs
+- Backend API Development
 - Database Integration
 - Project Development
 
 ---
 
-## 📫 Connect With Me
+# 🎯 Current Learning
+
+- Advanced Spring Security
+- System Design
+- Microservices Architecture
+- Docker Fundamentals
+- Data Structures & Algorithms
+
+---
+
+# 🤝 Open To Collaborate On
+
+- Java Applications
+- Spring Boot Projects
+- React.js Applications
+- Open Source Contributions
+- REST API Development
+
+---
+
+# 📫 Connect With Me
 
 <div align="center">
 
@@ -181,6 +205,10 @@ Completed hands-on internship focused on:
 
 <div align="center">
 
-### Building scalable applications one commit at a time.
+### 💻 Building scalable applications one commit at a time
+
+### 🚀 Always Learning • Always Building • Always Improving
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=gradient"/>
