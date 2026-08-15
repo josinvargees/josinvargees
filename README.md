@@ -1,65 +1,140 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0D1117,50:161B22,100:21262D&text=JOSIN%20V&fontSize=60&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=58&descColor=C9D1D9"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=280&text=JOSIN%20V&fontSize=65&fontColor=58A6FF&stroke=58A6FF&colorA=0D1117&colorB=161B22"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;REST+API+Development;Open+to+Software+Developer+Opportunities"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;REST+API+Development;Always+Learning+and+Growing"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Open%20To-Work-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Location-Chennai-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-orange?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# 👨‍💻 About Me
+<h2 align="center">👨‍💻 ABOUT ME</h2>
+
+<hr>
 
 > **Aspiring Full Stack Developer with skills in Java, Spring Boot, MySQL, React.js, REST APIs, HTML, CSS, and JavaScript. Passionate about building responsive and scalable web applications, with strong problem-solving abilities and a continuous learning mindset. Eager to contribute to innovative projects and grow in a professional development environment.**
 
 ---
 
-# 🛠️ Technology Stack
+<h2 align="center">🧑‍💻 DEVELOPER PROFILE</h2>
+
+<hr>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 👨‍💻 Basic Information
+
+- 🎓 B.E Computer Science & Engineering
+- 💻 Java Full Stack Developer
+- 📍 Chennai, India
+- 🌱 Currently Learning System Design
+- 🚀 Open to Software Developer Opportunities
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎯 Interests
+
+- Backend Development
+- Spring Boot Applications
+- REST API Development
+- Database Design
+- Cybersecurity
+- Software Architecture
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 align="center">🛠️ TECHNOLOGY STACK</h2>
+
+<hr>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,html,css,js,git,github,vscode,idea"/>
+<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,js,html,css,git,github,vscode,idea&theme=dark"/>
 
 </div>
 
 ---
 
-# 💡 Technical Skills
+<h2 align="center">🚀 FEATURED PROJECTS</h2>
 
-| Category | Technologies |
-|-----------|-----------|
-| **Java** | Core Java, OOP, Collections, Exception Handling, Multithreading, File Handling |
-| **Spring Boot** | REST APIs, Spring MVC, Spring Data JPA, Hibernate, Spring Security, JWT, Validation, Global Exception Handling |
-| **MySQL** | CRUD Operations, Joins, Subqueries, Normalization, Constraints, Database Design |
-| **React.js** | Components, Props, State Management, Hooks, React Router, REST API Integration |
-| **Web Technologies** | HTML5, CSS3, JavaScript, Responsive UI, REST API Integration |
+<hr>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-# 🚀 Featured Projects
+## 🛡️ AI-Based Cybersecurity Framework
 
-## 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
+✔ Malicious IP Detection
+
+✔ URL Threat Analysis
+
+✔ Secure REST APIs
+
+✔ JWT Authentication
+
+✔ React Dashboard
+
+### Tech Stack
+
+Java • Spring Boot • React • MySQL
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🍔 Food Ordering System
+
+✔ User Authentication
+
+✔ Cart Management
+
+✔ Order Management
+
+✔ REST APIs
+
+✔ MySQL Integration
+
+### Tech Stack
+
+Java • Spring Boot • React • JWT • MySQL
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+### 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
 
 **Role: Full Stack Developer**
 
-### Key Contributions
+- Developed a web-based cybersecurity system to detect malicious IP addresses and URLs.
+- Implemented AI/ML-based analysis to identify potential cyber threats.
+- Built secure and scalable REST APIs using Java and Spring Boot.
+- Designed a React-based dashboard to display threat detection results.
+- Integrated MySQL for data storage and used Git/GitHub for version control.
 
-- Developed a web-based cybersecurity system to detect **malicious IP addresses and URLs**
-- Implemented **AI/ML-based analysis** to identify potential cyber threats
-- Built secure and scalable **REST APIs** using Java and Spring Boot
-- Designed a **React-based dashboard** to display threat detection results
-- Integrated **MySQL** for data storage and used **Git/GitHub** for version control
-
-### Technologies Used
+**Technologies / Tools Used**
 
 `Java` `Spring Boot` `Spring Security`
 `Spring Data JPA` `MySQL`
@@ -70,21 +145,20 @@
 
 ---
 
-## 🍔 Food Ordering System
+### 🍔 Food Ordering System
 
 **Role: Full Stack Developer**
 
-### Key Contributions
+- Developed a full-stack online food ordering application using React.js for the frontend and Spring Boot for the backend.
+- Implemented user registration, login, and JWT-based authentication using Spring Security.
+- Developed RESTful APIs for food, category, cart, order, and user management.
+- Integrated MySQL with Spring Data JPA and Hibernate to manage users, food items, categories, carts, orders, and order items.
+- Built frontend features including food listing, cart management, checkout, order history, and reorder functionality using React.js and Axios.
 
-- Developed a full-stack online food ordering application using **React.js** for the frontend and **Spring Boot** for the backend
-- Implemented user registration, login, and **JWT-based authentication** using Spring Security
-- Developed **RESTful APIs** for food, category, cart, order, and user management
-- Integrated **MySQL** with Spring Data JPA and Hibernate to manage users, food items, categories, carts, orders, and order items
-- Built frontend features including food listing, cart management, checkout, order history, and reorder functionality using React.js and Axios
+**Technologies / Tools Used**
 
-### Technologies Used
-
-`Java` `Spring Boot`
+`Java`
+`Spring Boot`
 `Spring Security`
 `JWT`
 `Spring Data JPA`
@@ -99,7 +173,27 @@
 
 ---
 
-# 🎓 Education
+<h2 align="center">📚 CORE SKILLS</h2>
+
+<hr>
+
+<div align="center">
+
+| Category | Technologies |
+|-----------|-----------|
+| **Java** | Core Java, OOP, Collections, Exception Handling, Multithreading, File Handling |
+| **Spring Boot** | REST APIs, Spring MVC, Spring Data JPA, Hibernate, Spring Security, JWT, Validation, Global Exception Handling |
+| **MySQL** | CRUD Operations, Joins, Subqueries, Normalization, Constraints, Database Design |
+| **React.js** | Components, Props, State Management, Hooks, React Router, REST API Integration |
+| **Web Technologies** | HTML5, CSS3, JavaScript, Responsive UI, REST API Integration |
+
+</div>
+
+---
+
+<h2 align="center">🎓 EDUCATION</h2>
+
+<hr>
 
 ### Vels Institute of Science, Technology & Advanced Studies
 
@@ -109,13 +203,15 @@
 
 📅 2022 – 2026
 
-CGPA: **6.41**
+🎯 CGPA: **6.41**
 
 ---
 
-# 🏆 Certifications & Training
+<h2 align="center">🏆 CERTIFICATIONS & TRAINING</h2>
 
-## Java Full Stack Development Training
+<hr>
+
+### Java Full Stack Development Training
 
 **FITA Academy | Feb 2026 – Aug 2026**
 
@@ -129,48 +225,40 @@ Completed practical training in:
 
 ---
 
-## Java Full Stack Internship
+### Java Full Stack Internship
 
 **FemtoSoft Technologies | Jan 2025 – Feb 2025**
 
-Completed internship focused on:
+Completed Internship on Java Full Stack Development with hands-on experience in:
 
-- Java Full Stack Development
-- Backend API Development
+- Backend Development
 - Database Integration
-- Real-world Project Development
+- REST API Development
+- Full Stack Project Development
 
 ---
 
-# 🎯 Current Focus
+<h2 align="center">📫 CONNECT WITH ME</h2>
 
-- Spring Boot Development
-- REST API Design
-- Backend Engineering
-- System Design Fundamentals
-- Software Development Best Practices
-
----
-
-# 📫 Connect With Me
+<hr>
 
 <div align="center">
 
 <a href="https://github.com/josinvargees">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF"/>
+<img height="45" src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF"/>
 </a>
 
 <a href="https://www.linkedin.com/in/josinvargees/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img height="45" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:josinvargees@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img height="45" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </div>
 
----
+<br>
 
 <div align="center">
 
@@ -180,4 +268,4 @@ Completed internship focused on:
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:0D1117,50:161B22,100:21262D"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=0:0D1117,50:161B22,100:58A6FF"/>
