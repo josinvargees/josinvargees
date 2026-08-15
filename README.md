@@ -1,17 +1,17 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Josin%20V&fontSize=60&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0D1117,50:161B22,100:21262D&text=JOSIN%20V&fontSize=60&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=58&descColor=C9D1D9"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=2500&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;Backend+Development+%7C+REST+APIs;Open+to+Software+Developer+Opportunities"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;Building+Scalable+Web+Applications;REST+API+Development;Open+to+Software+Developer+Opportunities"/>
 
-<br>
+<br><br>
 
-<img src="https://img.shields.io/badge/Java-Developer-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Spring_Boot-Backend-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MySQL-Database-informational?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
 </div>
 
@@ -19,35 +19,7 @@
 
 # 👨‍💻 About Me
 
-```yaml
-Name: Josin V
-
-Location: Chennai, India
-
-Role: Java Full Stack Developer
-
-Education:
-  Degree: B.E Computer Science & Engineering
-  College: Vels Institute of Science, Technology & Advanced Studies
-
-Interests:
-  - Backend Development
-  - REST API Development
-  - Spring Boot
-  - Cybersecurity
-  - Software Architecture
-
-Current Focus:
-  - Java
-  - Spring Boot
-  - React.js
-  - MySQL
-  - Spring Security
-  - JWT Authentication
-
-Goal:
-  Become a Professional Software Engineer and build impactful products.
-```
+> **Aspiring Full Stack Developer with skills in Java, Spring Boot, MySQL, React.js, REST APIs, HTML, CSS, and JavaScript. Passionate about building responsive and scalable web applications, with strong problem-solving abilities and a continuous learning mindset. Eager to contribute to innovative projects and grow in a professional development environment.**
 
 ---
 
@@ -55,7 +27,7 @@ Goal:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,hibernate,git,github,vscode,idea,html,css,js"/>
+<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,html,css,js,git,github,vscode,idea"/>
 
 </div>
 
@@ -63,62 +35,67 @@ Goal:
 
 # 💡 Technical Skills
 
-| Category | Skills |
+| Category | Technologies |
 |-----------|-----------|
-| Programming | Java, JavaScript |
-| Backend | Spring Boot, Spring MVC, Spring Security, REST APIs |
-| Database | MySQL, Hibernate, JPA, SQL |
-| Frontend | React.js, HTML5, CSS3 |
-| Tools | Git, GitHub, VS Code, IntelliJ IDEA |
+| **Java** | Core Java, OOP, Collections, Exception Handling, Multithreading, File Handling |
+| **Spring Boot** | REST APIs, Spring MVC, Spring Data JPA, Hibernate, Spring Security, JWT, Validation, Global Exception Handling |
+| **MySQL** | CRUD Operations, Joins, Subqueries, Normalization, Constraints, Database Design |
+| **React.js** | Components, Props, State Management, Hooks, React Router, REST API Integration |
+| **Web Technologies** | HTML5, CSS3, JavaScript, Responsive UI, REST API Integration |
 
 ---
 
 # 🚀 Featured Projects
 
-## 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP & URL Detection
+## 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
 
-A full-stack cybersecurity platform designed to detect malicious IP addresses and suspicious URLs using intelligent threat analysis.
+**Role: Full Stack Developer**
 
-### Key Features
+### Key Contributions
 
-- Malicious IP Detection
-- URL Threat Analysis
-- AI/ML-Based Monitoring
-- Secure REST APIs
-- JWT Authentication
-- React Dashboard
-- MySQL Integration
+- Developed a web-based cybersecurity system to detect **malicious IP addresses and URLs**
+- Implemented **AI/ML-based analysis** to identify potential cyber threats
+- Built secure and scalable **REST APIs** using Java and Spring Boot
+- Designed a **React-based dashboard** to display threat detection results
+- Integrated **MySQL** for data storage and used **Git/GitHub** for version control
 
-### Technology Stack
+### Technologies Used
 
 `Java` `Spring Boot` `Spring Security`
-`JWT` `React.js` `MySQL`
-`REST APIs`
+`Spring Data JPA` `MySQL`
+`React.js` `JavaScript`
+`HTML` `CSS`
+`REST APIs` `JWT`
+`Git` `GitHub`
 
 ---
 
 ## 🍔 Food Ordering System
 
-A complete full-stack food ordering application with authentication, food management, cart management, and order processing.
+**Role: Full Stack Developer**
 
-### Key Features
+### Key Contributions
 
-- User Registration & Login
-- JWT Authentication
-- Food Management
-- Cart Management
-- Order Management
-- Order History
-- REST API Integration
+- Developed a full-stack online food ordering application using **React.js** for the frontend and **Spring Boot** for the backend
+- Implemented user registration, login, and **JWT-based authentication** using Spring Security
+- Developed **RESTful APIs** for food, category, cart, order, and user management
+- Integrated **MySQL** with Spring Data JPA and Hibernate to manage users, food items, categories, carts, orders, and order items
+- Built frontend features including food listing, cart management, checkout, order history, and reorder functionality using React.js and Axios
 
-### Technology Stack
+### Technologies Used
 
 `Java` `Spring Boot`
-`React.js`
-`MySQL`
-`Hibernate`
 `Spring Security`
 `JWT`
+`Spring Data JPA`
+`Hibernate`
+`MySQL`
+`React.js`
+`JavaScript`
+`HTML`
+`CSS`
+`Axios`
+`GitHub`
 
 ---
 
@@ -128,17 +105,19 @@ A complete full-stack food ordering application with authentication, food manage
 
 **B.E Computer Science & Engineering**
 
-📍 Chennai, India
+📍 Chennai
 
 📅 2022 – 2026
+
+CGPA: **6.41**
 
 ---
 
 # 🏆 Certifications & Training
 
-### Java Full Stack Development Training
+## Java Full Stack Development Training
 
-**FITA Academy**
+**FITA Academy | Feb 2026 – Aug 2026**
 
 Completed practical training in:
 
@@ -146,40 +125,30 @@ Completed practical training in:
 - Spring Boot
 - MySQL
 - REST APIs
-- React.js
+- Web Technologies
 
 ---
 
-### Java Full Stack Internship
+## Java Full Stack Internship
 
-**FemtoSoft Technologies**
+**FemtoSoft Technologies | Jan 2025 – Feb 2025**
 
-Completed hands-on internship focused on:
+Completed internship focused on:
 
-- Full Stack Development
+- Java Full Stack Development
 - Backend API Development
 - Database Integration
-- Project Development
+- Real-world Project Development
 
 ---
 
-# 🎯 Current Learning
+# 🎯 Current Focus
 
-- Advanced Spring Security
-- System Design
-- Microservices Architecture
-- Docker Fundamentals
-- Data Structures & Algorithms
-
----
-
-# 🤝 Open To Collaborate On
-
-- Java Applications
-- Spring Boot Projects
-- React.js Applications
-- Open Source Contributions
-- REST API Development
+- Spring Boot Development
+- REST API Design
+- Backend Engineering
+- System Design Fundamentals
+- Software Development Best Practices
 
 ---
 
@@ -188,7 +157,7 @@ Completed hands-on internship focused on:
 <div align="center">
 
 <a href="https://github.com/josinvargees">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF"/>
 </a>
 
 <a href="https://www.linkedin.com/in/josinvargees/">
@@ -205,10 +174,10 @@ Completed hands-on internship focused on:
 
 <div align="center">
 
-### 💻 Building scalable applications one commit at a time
+### 💻 Building Scalable Applications One Commit At A Time
 
-### 🚀 Always Learning • Always Building • Always Improving
+### 🚀 Java • Spring Boot • React.js • MySQL
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=gradient"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:0D1117,50:161B22,100:21262D"/>
