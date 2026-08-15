@@ -1,197 +1,246 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&fontSize=70&fontColor=39FF14&stroke=39FF14&animation=fadeIn&colorA=000000&colorB=0F172A"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:000000,100:39FF14&text=JOSIN%20V&fontSize=70&fontColor=39FF14&animation=fadeIn"/>
 
-# 🎮 JOSIN V
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&lines=Java+Full+Stack+Developer;Spring+Boot+Backend+Developer;React.js+Frontend+Developer;Cybersecurity+Enthusiast;Building+Secure+and+Scalable+Applications"/>
 
-### 💻 Java Full Stack Developer
-
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Spring+Boot+%7C+React.js+%7C+MySQL;REST+API+Development;Building+Scalable+Applications;Always+Learning+and+Growing"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-39FF14?style=for-the-badge&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/LOCATION-CHENNAI-39FF14?style=for-the-badge&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/FOCUS-FULL_STACK_DEVELOPMENT-39FF14?style=for-the-badge&logoColor=black"/>
+<p>
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black"/>
+<img src="https://img.shields.io/badge/LOCATION-CHENNAI-39FF14?style=for-the-badge&logo=googlemaps&logoColor=black"/>
+<img src="https://img.shields.io/badge/JAVA-FULL_STACK_DEVELOPER-39FF14?style=for-the-badge&logo=openjdk&logoColor=black"/>
+</p>
 
 </div>
 
 ---
 
-# 🎯 PLAYER PROFILE
+# 💻 PROFESSIONAL SUMMARY
 
 ```yaml
 Name: Josin V
 
-Class: Java Full Stack Developer
-
-Location: Chennai, India
-
-Education:
-  Degree: B.E Computer Science & Engineering
-  College: Vels Institute of Science, Technology & Advanced Studies
-
-Current Mission:
-  Become a Professional Software Engineer
+Role: Software Developer
 
 Specialization:
   - Java
   - Spring Boot
-  - React.js
   - MySQL
+  - React.js
   - REST APIs
+
+Location: Chennai, India
+
+Status: Open To Work
+
+Career Objective:
+  Passionate Full Stack Developer with strong skills in Java,
+  Spring Boot, MySQL, React.js, REST APIs, HTML, CSS and JavaScript.
+  Interested in building secure, scalable and responsive web applications
+  while continuously improving technical expertise.
 ```
 
 ---
 
-# 💼 PROFESSIONAL SUMMARY
-
-> **Aspiring Full Stack Developer with skills in Java, Spring Boot, MySQL, React.js, REST APIs, HTML, CSS, and JavaScript. Passionate about building responsive and scalable web applications, with strong problem-solving abilities and a continuous learning mindset. Eager to contribute to innovative projects and grow in a professional development environment.**
+```diff
++ SYSTEM ONLINE
++ JAVA MODULE LOADED
++ SPRING BOOT FRAMEWORK INITIALIZED
++ REACT UI MODULE ACTIVE
++ MYSQL DATABASE CONNECTED
++ SECURITY LAYER ENABLED
++ READY FOR DEVELOPMENT
+```
 
 ---
 
 # 🎓 EDUCATION
 
-## 🏫 Vels Institute of Science, Technology & Advanced Studies
+## Vels Institute of Science, Technology & Advanced Studies
 
-📍 Chennai
+**Degree:** B.E Computer Science Engineering
 
-🎓 B.E Computer Science & Engineering
+**Location:** Chennai
 
-📅 2022 – 2026
+**Duration:** 2022 - 2026
 
-🏆 CGPA : 6.41
-
----
-
-# ⚔️ TECHNOLOGY ARSENAL
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,html,css,js,git,github,vscode,idea&theme=dark"/>
-
-</div>
+**CGPA:** 6.41
 
 ---
 
-# 🧠 SKILL TREE
+## St. Joseph's HSS School
 
-| Skill Category | Technologies |
-|----------|----------|
-| ☕ Java | Core Java, OOP, Collections, Exception Handling, Multithreading, File Handling |
-| 🍃 Spring Boot | REST APIs, Spring MVC, Spring Data JPA, Hibernate, Spring Security, JWT, Validation, Global Exception Handling |
-| 🗄️ MySQL | CRUD Operations, Joins, Subqueries, Normalization, Constraints, Database Design |
-| ⚛️ React.js | Components, Props, State Management, Hooks, React Router, REST API Integration |
-| 🌐 Web Technologies | HTML5, CSS3, JavaScript, Responsive UI, REST API Integration |
+**Qualification:** HSC
 
----
+**Location:** Chennai
 
-# 🚀 FEATURED PROJECTS
+**Year:** 2021 - 2022
+
+**Percentage:** 53%
 
 ---
 
-## 🛡️ AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
+## St. Joseph's Matriculation School
 
-```diff
-+ STATUS : COMPLETED
-+ ROLE   : FULL STACK DEVELOPER
-+ LEVEL  : ADVANCED
-```
+**Qualification:** SSLC
 
-### 🎯 Mission Objectives
+**Location:** Chennai
 
-✔ Developed a web-based cybersecurity system to detect malicious IP addresses and URLs.
+**Year:** 2019 - 2020
 
-✔ Implemented AI/ML-based analysis to identify potential cyber threats.
+**Percentage:** 58.8%
 
-✔ Built secure and scalable REST APIs using Java and Spring Boot.
+---
 
-✔ Designed a React-based dashboard to display threat detection results.
+# 🚀 PROJECTS
 
-✔ Integrated MySQL for data storage and used Git/GitHub for version control.
+---
 
-### ⚔️ Technology Arsenal
+## 🛡 AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
 
-```yaml
-Backend:
-  - Java
-  - Spring Boot
-  - Spring Security
-  - Spring Data JPA
+### Full Stack Developer
 
-Frontend:
-  - React.js
-  - JavaScript
-  - HTML
-  - CSS
+Developed a web-based cybersecurity platform capable of identifying malicious IP addresses and suspicious URLs before they can be used in cyber attacks. The application provides threat analysis and displays results through an interactive dashboard.
 
-Database:
-  - MySQL
+### Key Features
 
-Security:
-  - JWT Authentication
+- Detection of malicious IP addresses.
+- Detection of phishing and fraudulent URLs.
+- AI/ML-based threat analysis.
+- Secure authentication using JWT.
+- REST API development using Spring Boot.
+- Interactive dashboard built with React.js.
+- MySQL database integration.
+- Scan history management and reporting.
 
-Tools:
-  - Git
-  - GitHub
-```
+### Responsibilities
+
+- Developed backend APIs using Java and Spring Boot.
+- Implemented Spring Security and JWT authentication.
+- Designed database schema using MySQL.
+- Built frontend interfaces using React.js.
+- Integrated frontend and backend using REST APIs.
+- Managed version control using Git and GitHub.
+
+### Technologies Used
+
+`Java`
+`Spring Boot`
+`Spring Security`
+`Spring Data JPA`
+`Hibernate`
+`JWT`
+`MySQL`
+`React.js`
+`JavaScript`
+`HTML`
+`CSS`
+`Git`
+`GitHub`
 
 ---
 
 ## 🍔 Food Ordering System
 
-```diff
-+ STATUS : COMPLETED
-+ ROLE   : FULL STACK DEVELOPER
-+ LEVEL  : ADVANCED
-```
+### Full Stack Developer
 
-### 🎯 Mission Objectives
+Developed a full-stack online food ordering application that enables users to browse food items, manage carts, place orders and view order history through a responsive web interface.
 
-✔ Developed a full-stack online food ordering application using React.js for the frontend and Spring Boot for the backend.
+### Key Features
 
-✔ Implemented user registration, login, and JWT-based authentication using Spring Security.
+- User Registration and Login.
+- JWT Authentication and Authorization.
+- Food Item Management.
+- Category Management.
+- Shopping Cart Functionality.
+- Order Placement and Tracking.
+- Order History.
+- REST API Integration.
+- Responsive User Interface.
 
-✔ Developed RESTful APIs for food, category, cart, order, and user management.
+### Responsibilities
 
-✔ Integrated MySQL with Spring Data JPA and Hibernate to manage users, food items, categories, carts, orders, and order items.
+- Developed backend services using Spring Boot.
+- Designed REST APIs for food, cart and order management.
+- Implemented Spring Security with JWT.
+- Managed database operations using Spring Data JPA and Hibernate.
+- Developed frontend components using React.js.
+- Integrated APIs using Axios.
+- Tested and debugged application functionality.
 
-✔ Built frontend features including food listing, cart management, checkout, order history, and reorder functionality using React.js and Axios.
+### Technologies Used
 
-### ⚔️ Technology Arsenal
+`Java`
+`Spring Boot`
+`Spring Security`
+`JWT`
+`Spring Data JPA`
+`Hibernate`
+`MySQL`
+`React.js`
+`JavaScript`
+`HTML`
+`CSS`
+`Axios`
+`GitHub`
 
-```yaml
-Backend:
-  - Java
-  - Spring Boot
-  - Spring Security
-  - JWT
+---
 
-Frontend:
-  - React.js
-  - JavaScript
-  - HTML
-  - CSS
+# 🛠 SKILLS
 
-Database:
-  - MySQL
-  - Hibernate
-  - Spring Data JPA
+### Java
 
-Tools:
-  - Axios
-  - GitHub
-```
+- Core Java
+- OOP
+- Collections
+- Exception Handling
+- Multithreading
+- File Handling
+
+### Spring Boot
+
+- REST APIs
+- Spring MVC
+- Spring Data JPA
+- Hibernate
+- Spring Security
+- JWT
+- Validation
+- Global Exception Handling
+
+### MySQL
+
+- CRUD Operations
+- Joins
+- Subqueries
+- Constraints
+- Normalization
+- Database Design
+
+### React.js
+
+- Components
+- Props
+- Hooks
+- State Management
+- React Router
+- REST API Integration
+
+### Web Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive UI Design
 
 ---
 
 # 🏆 CERTIFICATIONS & TRAINING
 
-## 🎓 Java Full Stack Development Training
+## Java Full Stack Development Training
 
-**FITA Academy | Feb 2026 – Aug 2026**
+**Institute:** FITA
+
+**Duration:** Feb 2026 – Aug 2026
 
 Completed practical training in:
 
@@ -199,75 +248,49 @@ Completed practical training in:
 - Spring Boot
 - MySQL
 - REST APIs
+- React.js
 - Web Technologies
 
 ---
 
-## 💼 Java Full Stack Internship
+## Java Full Stack Internship
 
-**FemtoSoft Technologies | Jan 2025 – Feb 2025**
+**Organization:** FemtoSoft Technologies
 
-Completed the Internship on Java Full Stack in FemtoSoft Technologies.
+**Duration:** Jan 2025 – Feb 2025
 
-Focused on:
+Completed internship focused on:
 
 - Java Full Stack Development
-- Backend Development
+- Enterprise Application Development
+- Backend API Development
 - Database Integration
-- Real-world Project Development
 
 ---
 
-# 🎯 CURRENT OBJECTIVES
+# 📫 CONTACT
 
-```yaml
-2026 Goals:
-  - Master Spring Boot
-  - Learn System Design
-  - Improve DSA Skills
-  - Build Production-Level Projects
-  - Secure a Software Developer Role
-```
+📧 Email: josinvargees@gmail.com
 
----
+📍 Chennai, India
 
-# 📫 CONNECT WITH ME
+💼 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
-<div align="center">
-
-<a href="https://github.com/josinvargees">
-<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=39FF14"/>
-</a>
-
-<a href="https://www.linkedin.com/in/josinvargees/">
-<img src="https://img.shields.io/badge/LINKEDIN-39FF14?style=for-the-badge&logo=linkedin&logoColor=black"/>
-</a>
-
-<a href="mailto:josinvargees@gmail.com">
-<img src="https://img.shields.io/badge/GMAIL-39FF14?style=for-the-badge&logo=gmail&logoColor=black"/>
-</a>
-
-</div>
+🐙 GitHub: https://github.com/YOUR_USERNAME
 
 ---
 
 <div align="center">
 
-# 🕹️ PLAYER STATS
-
-```yaml
-Player Name : Josin V
-Class       : Java Full Stack Developer
-Level       : Software Engineer Aspirant
-Location    : Chennai
-Skills      : Java | Spring Boot | React.js | MySQL
-Mission     : Build Scalable Applications
+```diff
++ ACCESS GRANTED
++ PROFILE LOADED SUCCESSFULLY
++ JAVA FULL STACK DEVELOPER DETECTED
++ SPRING BOOT ENVIRONMENT READY
++ CYBERSECURITY PROJECTS AVAILABLE
++ THANK YOU FOR VISITING
 ```
 
-### ⚡ XP GAINED THROUGH CODING • DEBUGGING • BUILDING ⚡
-
-### 🚀 JAVA • SPRING BOOT • REACT.JS • MYSQL
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:000000,100:39FF14"/>
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=0:000000,50:0F172A,100:39FF14"/>
