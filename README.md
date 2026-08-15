@@ -5,11 +5,11 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img width="100%"
-src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&fontSize=75&fontColor=00E5FF&stroke=00E5FF&strokeWidth=2&animation=fadeIn&colorA=050816&colorB=12002F"/>
+src="https://capsule-render.vercel.app/api?type=waving&height=170&text=JOSIN%20V&fontSize=52&fontColor=00E5FF&fontAlignY=45&fontFamily=Poppins&fontWeight=700&animation=fadeIn&colorA=050816&colorB=12002F"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React.js+Frontend+Developer;Java+%7C+Spring+Boot+Developer;Building+Real-World+Web+Applications;Always+Learning+%7C+Always+Building"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=18&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React.js+%7C+Java+%7C+Spring+Boot;Building+Modern+Web+Applications"/>
 
 <br/><br/>
 
@@ -17,15 +17,11 @@ src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&
 <!--                           STATUS                               -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-00E5FF?style=for-the-badge&labelColor=080B14&logo=github&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-00E5FF?style=flat-square&labelColor=080B14&logo=github&logoColor=00E5FF"/>
 &nbsp;
-<img src="https://img.shields.io/badge/LOCATION-CHENNAI-00E5FF?style=for-the-badge&labelColor=080B14&logo=googlemaps&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/CHENNAI-00E5FF?style=flat-square&labelColor=080B14&logo=googlemaps&logoColor=00E5FF"/>
 &nbsp;
-<img src="https://img.shields.io/badge/JAVA-FULL%20STACK-00E5FF?style=for-the-badge&labelColor=080B14&logo=openjdk&logoColor=00E5FF"/>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=josinvargees&label=PROFILE%20VIEWS&color=00E5FF&style=for-the-badge&labelColor=080B14"/>
+<img src="https://img.shields.io/badge/FULL%20STACK-00E5FF?style=flat-square&labelColor=080B14&logo=java&logoColor=00E5FF"/>
 
 <br/><br/>
 
@@ -33,9 +29,9 @@ src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&
 <!--                         TECH STACK                             -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-### ⚡ `TECH STACK`
+### ⚡ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,mysql,git,github,vscode,idea&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,mysql,git,github,vscode,idea&theme=dark&perline=11"/>
 
 <br/><br/>
 
@@ -46,43 +42,35 @@ src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&
 <table>
 <tr>
 
-<td align="center" width="220">
+<td align="center">
 
-### 🚀
-**BUILDING**
+**🚀 Building**
 
-Real-World  
-Web Applications
+Real-World Apps
 
 </td>
 
-<td align="center" width="220">
+<td align="center">
 
-### 🌱
-**LEARNING**
+**🌱 Learning**
 
-Spring Boot  
-React & MySQL
+Spring Boot
 
 </td>
 
-<td align="center" width="220">
+<td align="center">
 
-### 💻
-**FOCUS**
+**💻 Focus**
 
-Clean Code  
-Modern UI/UX
+Clean UI & Code
 
 </td>
 
-<td align="center" width="220">
+<td align="center">
 
-### ⚡
-**MINDSET**
+**⚡ Mindset**
 
-Learn • Build  
-Improve • Repeat
+Learn • Build • Grow
 
 </td>
 
@@ -96,14 +84,18 @@ Improve • Repeat
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/josinvargees">
-<img src="https://img.shields.io/badge/GITHUB-080B14?style=for-the-badge&logo=github&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/GitHub-080B14?style=flat-square&logo=github&logoColor=00E5FF"/>
 </a>
 
 &nbsp;
 
 <a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LINKEDIN-080B14?style=for-the-badge&logo=linkedin&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/LinkedIn-080B14?style=flat-square&logo=linkedin&logoColor=00E5FF"/>
 </a>
+
+&nbsp;
+
+<img src="https://komarev.com/ghpvc/?username=josinvargees&label=Views&color=00E5FF&style=flat-square&labelColor=080B14"/>
 
 <br/><br/>
 
