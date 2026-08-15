@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    iPHONE 17 PRO MAX STYLE                    -->
+<!--                 IPHONE 17 PRO MAX — TITANIUM                  -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=175&text=Josinvargees%20&fontSize=52&fontColor=FFFFFF&fontAlignY=45&fontFamily=Inter&fontWeight=700&animation=fadeIn&colorA=050505&colorB=FF6A00"/>
+src="https://capsule-render.vercel.app/api?type=waving&height=175&text=Josinvargees&fontSize=52&fontColor=F5F5F7&fontAlignY=45&fontFamily=Montserrat&fontWeight=600&animation=fadeIn&colorA=050505&colorB=2C2C2E"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3000&pause=1000&color=FF8A3D&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React.js+%7C+Java+%7C+Spring+Boot;Building+Modern+Web+Applications"/>
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=18&duration=3000&pause=1000&color=D1D1D6&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;React.js+%7C+Java+%7C+Spring+Boot;Building+Modern+Web+Applications"/>
 
 <br/><br/>
 
@@ -17,11 +17,15 @@ src="https://capsule-render.vercel.app/api?type=waving&height=175&text=Josinvarg
 <!--                         PRO STATUS                             -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-FF7A00?style=flat-square&labelColor=111111&logo=github&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/OPEN%20TO%20WORK-D1D1D6?style=flat-square&labelColor=1C1C1E&logo=github&logoColor=FFFFFF"/>
+
 &nbsp;
-<img src="https://img.shields.io/badge/CHENNAI-FF7A00?style=flat-square&labelColor=111111&logo=googlemaps&logoColor=FFFFFF"/>
+
+<img src="https://img.shields.io/badge/CHENNAI-D1D1D6?style=flat-square&labelColor=1C1C1E&logo=googlemaps&logoColor=FFFFFF"/>
+
 &nbsp;
-<img src="https://img.shields.io/badge/FULL%20STACK-FF7A00?style=flat-square&labelColor=111111&logo=java&logoColor=FFFFFF"/>
+
+<img src="https://img.shields.io/badge/FULL%20STACK-D1D1D6?style=flat-square&labelColor=1C1C1E&logo=java&logoColor=FFFFFF"/>
 
 <br/><br/>
 
@@ -36,7 +40,7 @@ src="https://capsule-render.vercel.app/api?type=waving&height=175&text=Josinvarg
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         PRO PROFILE                            -->
+<!--                       PRO PROFILE                              -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <table>
@@ -84,21 +88,21 @@ Think Different
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/josinvargees">
-<img src="https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/GitHub-F5F5F7?style=flat-square&logo=github&logoColor=000000"/>
 </a>
 
 &nbsp;
 
 <a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-111111?style=flat-square&logo=linkedin&logoColor=FFFFFF"/>
+<img src="https://img.shields.io/badge/LinkedIn-F5F5F7?style=flat-square&logo=linkedin&logoColor=000000"/>
 </a>
 
 &nbsp;
 
-<img src="https://komarev.com/ghpvc/?username=josinvargees&label=PROFILE%20VIEWS&color=FF7A00&style=flat-square&labelColor=111111"/>
+<img src="https://komarev.com/ghpvc/?username=josinvargees&label=PROFILE%20VIEWS&color=D1D1D6&style=flat-square&labelColor=1C1C1E"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=FF7A00"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=D1D1D6"/>
 
 </div>
