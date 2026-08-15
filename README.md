@@ -1,124 +1,104 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:000000,100:39FF14&text=JOSIN%20V&fontSize=70&fontColor=39FF14&animation=fadeIn"/>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         HERO HEADER                            -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&lines=Java+Full+Stack+Developer;Spring+Boot+Backend+Developer;React.js+Frontend+Developer;Cybersecurity+Enthusiast;Building+Secure+and+Scalable+Applications"/>
+<img width="100%"
+     src="https://capsule-render.vercel.app/api?type=venom&height=320&text=JOSIN%20V&fontSize=75&fontColor=39FF14&stroke=39FF14&strokeWidth=2&animation=fadeIn&colorA=000000&colorB=0F172A"/>
 
-<p>
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black"/>
-<img src="https://img.shields.io/badge/LOCATION-CHENNAI-39FF14?style=for-the-badge&logo=googlemaps&logoColor=black"/>
-<img src="https://img.shields.io/badge/JAVA-FULL_STACK_DEVELOPER-39FF14?style=for-the-badge&logo=openjdk&logoColor=black"/>
-</p>
+<br/>
 
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React.js+Frontend+Developer;Java+%7C+Spring+Boot+Developer;Building+Real-World+Web+Applications;Always+Learning+%7C+Always+Building" />
 
----
+<br/><br/>
 
-# 🚀 PROJECTS
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                           STATUS                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
----
+<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-39FF14?style=for-the-badge&labelColor=111111&logo=github&logoColor=39FF14"/>
+&nbsp;
+<img src="https://img.shields.io/badge/LOCATION-CHENNAI-39FF14?style=for-the-badge&labelColor=111111&logo=googlemaps&logoColor=39FF14"/>
+&nbsp;
+<img src="https://img.shields.io/badge/JAVA-FULL%20STACK-39FF14?style=for-the-badge&labelColor=111111&logo=openjdk&logoColor=39FF14"/>
 
-## 🛡 AI-Based Cybersecurity Framework for Proactive Malicious IP and URL Detection
+<br/><br/>
 
-### Full Stack Developer
+<img src="https://komarev.com/ghpvc/?username=josinvargees&label=PROFILE%20VIEWS&color=39FF14&style=for-the-badge&labelColor=111111"/>
 
-Developed a web-based cybersecurity platform capable of identifying malicious IP addresses and suspicious URLs before they can be used in cyber attacks. The application provides threat analysis and displays results through an interactive dashboard.
+<br/><br/>
 
-### Key Features
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         TECH STACK                             -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-- Detection of malicious IP addresses.
-- Detection of phishing and fraudulent URLs.
-- AI/ML-based threat analysis.
-- Secure authentication using JWT.
-- REST API development using Spring Boot.
-- Interactive dashboard built with React.js.
-- MySQL database integration.
-- Scan history management and reporting.
+### ⚡ `TECH STACK`
 
-### Responsibilities
+<img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,mysql,git,github,vscode,idea&theme=dark" />
 
-- Developed backend APIs using Java and Spring Boot.
-- Implemented Spring Security and JWT authentication.
-- Designed database schema using MySQL.
-- Built frontend interfaces using React.js.
-- Integrated frontend and backend using REST APIs.
-- Managed version control using Git and GitHub.
+<br/><br/>
 
-### Technologies Used
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                          CURRENTLY                             -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-`Java`
-`Spring Boot`
-`Spring Security`
-`Spring Data JPA`
-`Hibernate`
-`JWT`
-`MySQL`
-`React.js`
-`JavaScript`
-`HTML`
-`CSS`
-`Git`
-`GitHub`
+<table>
+<tr>
+<td align="center" width="220">
 
----
+**🚀 BUILDING**
 
-## 🍔 Food Ordering System
+Real-World  
+Web Applications
 
-### Full Stack Developer
+</td>
 
-Developed a full-stack online food ordering application that enables users to browse food items, manage carts, place orders and view order history through a responsive web interface.
+<td align="center" width="220">
 
-### Key Features
+**🌱 LEARNING**
 
-- User Registration and Login.
-- JWT Authentication and Authorization.
-- Food Item Management.
-- Category Management.
-- Shopping Cart Functionality.
-- Order Placement and Tracking.
-- Order History.
-- REST API Integration.
-- Responsive User Interface.
+Spring Boot  
+React & MySQL
 
-### Responsibilities
+</td>
 
-- Developed backend services using Spring Boot.
-- Designed REST APIs for food, cart and order management.
-- Implemented Spring Security with JWT.
-- Managed database operations using Spring Data JPA and Hibernate.
-- Developed frontend components using React.js.
-- Integrated APIs using Axios.
-- Tested and debugged application functionality.
+<td align="center" width="220">
 
-### Technologies Used
+**💡 FOCUS**
 
-`Java`
-`Spring Boot`
-`Spring Security`
-`JWT`
-`Spring Data JPA`
-`Hibernate`
-`MySQL`
-`React.js`
-`JavaScript`
-`HTML`
-`CSS`
-`Axios`
-`GitHub`
+Clean Code  
+Modern UI/UX
 
----
+</td>
 
-<div align="center">
+<td align="center" width="220">
 
-```diff
-+ ACCESS GRANTED
-+ PROFILE LOADED SUCCESSFULLY
-+ JAVA FULL STACK DEVELOPER DETECTED
-+ SPRING BOOT ENVIRONMENT READY
-+ CYBERSECURITY PROJECTS AVAILABLE
-+ THANK YOU FOR VISITING
-```
+**⚡ MINDSET**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:000000,100:39FF14"/>
+Learn • Build  
+Improve • Repeat
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         PROFILE LINKS                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a href="https://github.com/josinvargees">
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=39FF14"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14"/>
+</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=39FF14"/>
 
 </div>
