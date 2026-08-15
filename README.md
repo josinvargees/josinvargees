@@ -5,7 +5,7 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=175&text=JOSIN%20V&fontSize=52&fontColor=FFFFFF&fontAlignY=45&fontFamily=Inter&fontWeight=700&animation=fadeIn&colorA=050505&colorB=FF6A00"/>
+src="https://capsule-render.vercel.app/api?type=waving&height=175&text=Josinvargees%20&fontSize=52&fontColor=FFFFFF&fontAlignY=45&fontFamily=Inter&fontWeight=700&animation=fadeIn&colorA=050505&colorB=FF6A00"/>
 
 <br/>
 
