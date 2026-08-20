@@ -1,1 +1,188 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350"
+xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="background"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="45%" stop-color="#17002d"/>
+<stop offset="100%" stop-color="#050505"/>
+
+</linearGradient>
+
+<linearGradient id="neon"
+x1="0%" y1="0%"
+x2="100%" y2="0%">
+
+<stop offset="0%" stop-color="#00ffff"/>
+<stop offset="50%" stop-color="#8a2be2"/>
+<stop offset="100%" stop-color="#ff00ff"/>
+
+</linearGradient>
+
+<filter id="glow">
+
+<feGaussianBlur
+stdDeviation="7"
+result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+width="1200"
+height="350"
+fill="url(#background)"/>
+
+<!-- Stars -->
+
+<g fill="#ffffff">
+
+<circle cx="100" cy="65" r="2"/>
+<circle cx="180" cy="115" r="2"/>
+<circle cx="300" cy="55" r="2"/>
+<circle cx="900" cy="70" r="2"/>
+<circle cx="1040" cy="120" r="2"/>
+<circle cx="1130" cy="60" r="2"/>
+<circle cx="780" cy="45" r="2"/>
+<circle cx="430" cy="95" r="2"/>
+
+</g>
+
+<!-- Neon Planet -->
+
+<circle
+cx="150"
+cy="190"
+r="65"
+fill="#19003d"
+stroke="#00ffff"
+stroke-width="4"
+filter="url(#glow)"/>
+
+<ellipse
+cx="150"
+cy="190"
+rx="100"
+ry="25"
+fill="none"
+stroke="#ff00ff"
+stroke-width="5"
+transform="rotate(-15 150 190)"
+filter="url(#glow)"/>
+
+<!-- Main Glow -->
+
+<circle
+cx="600"
+cy="160"
+r="110"
+fill="#8a2be2"
+opacity="0.08"/>
+
+<!-- Title -->
+
+<text
+x="600"
+y="125"
+text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="62"
+font-weight="bold"
+fill="#ffffff"
+filter="url(#glow)">
+
+JOSIN VARGEEZ
+
+</text>
+
+<!-- Developer -->
+
+<text
+x="600"
+y="175"
+text-anchor="middle"
+font-family="monospace"
+font-size="24"
+font-weight="bold"
+fill="#00ffff">
+
+JAVA FULL STACK DEVELOPER
+
+</text>
+
+<!-- Technologies -->
+
+<text
+x="600"
+y="215"
+text-anchor="middle"
+font-family="monospace"
+font-size="17"
+fill="#ff00ff">
+
+JAVA • SPRING BOOT • REACT • MYSQL • REST API
+
+</text>
+
+<!-- Neon Grid -->
+
+<g
+stroke="url(#neon)"
+stroke-width="1"
+opacity="0.35">
+
+<path d="M0 260 H1200"/>
+<path d="M0 280 H1200"/>
+<path d="M0 300 H1200"/>
+<path d="M0 320 H1200"/>
+<path d="M0 340 H1200"/>
+
+<path d="M100 250 L500 350"/>
+<path d="M250 250 L550 350"/>
+<path d="M400 250 L600 350"/>
+<path d="M550 250 L650 350"/>
+<path d="M700 250 L700 350"/>
+<path d="M850 250 L750 350"/>
+<path d="M1000 250 L800 350"/>
+<path d="M1150 250 L850 350"/>
+
+</g>
+
+<!-- Neon Wave -->
+
+<path
+d="M20 245
+Q200 190 400 240
+T800 230
+T1180 210"
+
+stroke="url(#neon)"
+stroke-width="5"
+fill="none"
+filter="url(#glow)"/>
+
+<!-- Bottom Line -->
+
+<rect
+x="150"
+y="330"
+width="900"
+height="3"
+fill="url(#neon)"
+filter="url(#glow)"/>
+
+</svg>
