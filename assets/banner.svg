@@ -1,58 +1,80 @@
 <svg width="1200" height="350" viewBox="0 0 1200 350"
-xmlns="http://www.w3.org/2000/svg">
+     xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-    <!-- Background -->
-    <linearGradient id="bg"
-        x1="0%" y1="0%"
-        x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#020303"/>
-        <stop offset="50%" stop-color="#07120c"/>
-        <stop offset="100%" stop-color="#000000"/>
+    <!-- Main background -->
+    <linearGradient id="background"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+
+        <stop offset="0%" stop-color="#020617"/>
+        <stop offset="45%" stop-color="#07111f"/>
+        <stop offset="100%" stop-color="#020617"/>
+
     </linearGradient>
 
-    <!-- Green Neon -->
-    <linearGradient id="neon"
-        x1="0%" y1="0%"
-        x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00ff41"/>
-        <stop offset="50%" stop-color="#00ff9c"/>
-        <stop offset="100%" stop-color="#00ff41"/>
+    <!-- Cyber gradient -->
+    <linearGradient id="cyber"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+        <stop offset="0%" stop-color="#00e5ff"/>
+        <stop offset="50%" stop-color="#0077ff"/>
+        <stop offset="100%" stop-color="#00e5ff"/>
+
     </linearGradient>
 
-    <!-- Cyan -->
-    <linearGradient id="cyan"
-        x1="0%" y1="0%"
-        x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00ffff"/>
-        <stop offset="100%" stop-color="#00ff9c"/>
+    <!-- Purple cyber gradient -->
+    <linearGradient id="purple"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+        <stop offset="0%" stop-color="#7c3aed"/>
+        <stop offset="50%" stop-color="#c026d3"/>
+        <stop offset="100%" stop-color="#7c3aed"/>
+
     </linearGradient>
 
     <!-- Glow -->
     <filter id="glow">
-        <feGaussianBlur stdDeviation="5" result="blur"/>
+
+        <feGaussianBlur
+            stdDeviation="5"
+            result="blur"/>
+
         <feMerge>
             <feMergeNode in="blur"/>
             <feMergeNode in="SourceGraphic"/>
         </feMerge>
+
     </filter>
 
-    <filter id="softGlow">
-        <feGaussianBlur stdDeviation="18"/>
+    <!-- Strong glow -->
+    <filter id="strongGlow">
+
+        <feGaussianBlur
+            stdDeviation="12"
+            result="blur"/>
+
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+
     </filter>
 
-    <!-- Grid pattern -->
+    <!-- Grid -->
     <pattern id="grid"
-        width="40"
-        height="40"
-        patternUnits="userSpaceOnUse">
+             width="45"
+             height="45"
+             patternUnits="userSpaceOnUse">
 
         <path
-            d="M 40 0 L 0 0 0 40"
+            d="M45 0H0V45"
             fill="none"
-            stroke="#00ff41"
-            stroke-width="0.5"
+            stroke="#00e5ff"
+            stroke-width="0.6"
             opacity="0.12"/>
 
     </pattern>
@@ -60,20 +82,20 @@ xmlns="http://www.w3.org/2000/svg">
 </defs>
 
 
-<!-- ====================================================== -->
+<!-- ================================================= -->
 <!-- BACKGROUND -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
 
 <rect
     width="1200"
     height="350"
-    fill="url(#bg)"
+    fill="url(#background)"
 />
 
 
-<!-- ====================================================== -->
+<!-- ================================================= -->
 <!-- GRID -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
 
 <rect
     width="1200"
@@ -82,170 +104,308 @@ xmlns="http://www.w3.org/2000/svg">
 />
 
 
-<!-- ====================================================== -->
-<!-- AMBIENT GREEN GLOW -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- BACKGROUND GLOW -->
+<!-- ================================================= -->
 
 <ellipse
     cx="600"
-    cy="160"
-    rx="360"
-    ry="130"
-    fill="#00ff41"
-    opacity="0.035"
-    filter="url(#softGlow)"
+    cy="175"
+    rx="330"
+    ry="150"
+    fill="#0077ff"
+    opacity="0.05"
+    filter="url(#strongGlow)"
 />
 
 
-<!-- ====================================================== -->
-<!-- DECORATIVE CODE -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- LEFT TERMINAL -->
+<!-- ================================================= -->
 
-<g
-    font-family="monospace"
-    font-size="13"
-    fill="#00ff41"
-    opacity="0.18">
+<g transform="translate(65 70)">
 
-    <text x="45" y="55">
-        01001101 10101001
+    <rect
+        width="280"
+        height="180"
+        rx="12"
+        fill="#02050b"
+        stroke="#00e5ff"
+        stroke-width="1.5"
+        opacity="0.95"
+    />
+
+    <!-- Terminal header -->
+
+    <rect
+        width="280"
+        height="32"
+        rx="12"
+        fill="#07111f"
+    />
+
+    <circle
+        cx="20"
+        cy="16"
+        r="5"
+        fill="#ff5f56"
+    />
+
+    <circle
+        cx="38"
+        cy="16"
+        r="5"
+        fill="#ffbd2e"
+    />
+
+    <circle
+        cx="56"
+        cy="16"
+        r="5"
+        fill="#27c93f"
+    />
+
+    <text
+        x="78"
+        y="21"
+        font-family="monospace"
+        font-size="11"
+        fill="#64748b">
+
+        terminal
+
     </text>
 
-    <text x="45" y="78">
-        11001010 00110101
+
+    <!-- Terminal commands -->
+
+    <text
+        x="20"
+        y="62"
+        font-family="monospace"
+        font-size="13"
+        fill="#00e5ff">
+
+        $ whoami
+
     </text>
 
-    <text x="45" y="101">
-        01101001 11010110
+    <text
+        x="20"
+        y="84"
+        font-family="monospace"
+        font-size="13"
+        fill="#ffffff">
+
+        josinvargees
+
     </text>
 
-    <text x="45" y="124">
-        10010110 01001010
+
+    <text
+        x="20"
+        y="112"
+        font-family="monospace"
+        font-size="13"
+        fill="#00e5ff">
+
+        $ java --version
+
     </text>
 
-    <text x="970" y="55">
-        11001001 01010110
+    <text
+        x="20"
+        y="134"
+        font-family="monospace"
+        font-size="12"
+        fill="#94a3b8">
+
+        Java 25
+
     </text>
 
-    <text x="970" y="78">
-        00110101 10101010
+
+    <text
+        x="20"
+        y="160"
+        font-family="monospace"
+        font-size="13"
+        fill="#00e5ff">
+
+        $ status
+
     </text>
 
-    <text x="970" y="101">
-        11100100 01010101
-    </text>
+    <text
+        x="92"
+        y="160"
+        font-family="monospace"
+        font-size="13"
+        fill="#27c93f">
 
-    <text x="970" y="124">
-        01011010 10100101
+        ONLINE
+
     </text>
 
 </g>
 
 
-<!-- ====================================================== -->
-<!-- TOP SECURITY LINE -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- RIGHT CODE -->
+<!-- ================================================= -->
 
-<line
-    x1="80"
-    y1="35"
-    x2="1120"
-    y2="35"
-    stroke="#00ff41"
-    stroke-width="1"
-    opacity="0.35"
-/>
+<g
+    font-family="monospace"
+    font-size="12"
+    fill="#00e5ff"
+    opacity="0.22">
+
+    <text x="900" y="70">
+        public class Developer {
+    </text>
+
+    <text x="925" y="90">
+        String name = "Josin";
+    </text>
+
+    <text x="925" y="110">
+        String role = "Developer";
+    </text>
+
+    <text x="925" y="130">
+        build();
+    </text>
+
+    <text x="900" y="150">
+        }
+    </text>
 
 
-<!-- ====================================================== -->
-<!-- LEFT CYBER SYMBOL -->
-<!-- ====================================================== -->
+    <text x="900" y="195">
+        &lt;security&gt;
+    </text>
 
-<g transform="translate(120 135)">
+    <text x="925" y="215">
+        protected = true;
+    </text>
 
-    <!-- Outer circle -->
+    <text x="925" y="235">
+        encrypted = true;
+    </text>
+
+    <text x="900" y="255">
+        &lt;/security&gt;
+    </text>
+
+</g>
+
+
+<!-- ================================================= -->
+<!-- CENTRAL SHIELD -->
+<!-- ================================================= -->
+
+<g transform="translate(600 95)">
+
+    <!-- Outer circles -->
 
     <circle
         cx="0"
         cy="0"
-        r="62"
+        r="78"
         fill="none"
-        stroke="#00ff41"
-        stroke-width="2"
-        opacity="0.6"
+        stroke="#0077ff"
+        stroke-width="1"
+        opacity="0.25"
     />
 
     <circle
         cx="0"
         cy="0"
-        r="48"
-        fill="#001a0b"
-        stroke="#00ff41"
+        r="68"
+        fill="none"
+        stroke="#00e5ff"
         stroke-width="2"
-        opacity="0.8"
+        stroke-dasharray="5 8"
+        filter="url(#glow)"
     />
 
     <!-- Shield -->
 
     <path
         d="
-        M 0 -34
-        L 27 -22
-        L 23 12
-        Q 0 37 -23 12
-        L -27 -22
+        M 0 -52
+        L 42 -34
+        L 37 18
+        Q 25 47 0 61
+        Q -25 47 -37 18
+        L -42 -34
         Z"
-        fill="none"
-        stroke="url(#neon)"
+        fill="#031827"
+        stroke="url(#cyber)"
         stroke-width="4"
         filter="url(#glow)"
     />
 
-    <!-- Lock -->
+    <!-- Shield inner -->
 
-    <rect
-        x="-12"
-        y="-2"
-        width="24"
-        height="21"
-        rx="3"
+    <path
+        d="
+        M 0 -38
+        L 28 -26
+        L 25 13
+        Q 15 34 0 43
+        Q -15 34 -25 13
+        L -28 -26
+        Z"
+        fill="none"
+        stroke="#7c3aed"
+        stroke-width="2"
+    />
+
+    <!-- Code symbol -->
+
+    <path
+        d="M-20 0 L-8 10 L-20 20"
         fill="none"
         stroke="#ffffff"
-        stroke-width="2"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
     />
 
     <path
-        d="M -7 -2 V -10
-        Q -7 -20 0 -20
-        Q 7 -20 7 -10
-        V -2"
+        d="M20 0 L8 10 L20 20"
         fill="none"
         stroke="#ffffff"
-        stroke-width="2"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
     />
 
-    <circle
-        cx="0"
-        cy="8"
-        r="2.5"
-        fill="#00ff41"
+    <line
+        x1="5"
+        y1="-5"
+        x2="-5"
+        y2="25"
+        stroke="#00e5ff"
+        stroke-width="3"
     />
 
 </g>
 
 
-<!-- ====================================================== -->
-<!-- MAIN NAME -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- NAME -->
+<!-- ================================================= -->
 
 <text
     x="600"
-    y="130"
+    y="205"
     text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="58"
-    font-weight="bold"
-    letter-spacing="5"
+    font-size="47"
+    font-weight="700"
+    letter-spacing="4"
     fill="#ffffff">
 
     JOSIN VARGEEZ
@@ -253,181 +413,152 @@ xmlns="http://www.w3.org/2000/svg">
 </text>
 
 
-<!-- ====================================================== -->
-<!-- GREEN UNDERLINE -->
-<!-- ====================================================== -->
-
-<rect
-    x="365"
-    y="148"
-    width="470"
-    height="2"
-    fill="url(#neon)"
-    filter="url(#glow)"
-/>
-
-
-<!-- ====================================================== -->
+<!-- ================================================= -->
 <!-- TITLE -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
 
 <text
     x="600"
-    y="185"
+    y="235"
     text-anchor="middle"
     font-family="monospace"
-    font-size="21"
-    font-weight="bold"
+    font-size="17"
+    font-weight="600"
     letter-spacing="3"
-    fill="#00ff41">
+    fill="#00e5ff">
 
     JAVA FULL STACK DEVELOPER
 
 </text>
 
 
-<!-- ====================================================== -->
-<!-- SPECIALIZATION -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- TECHNOLOGY -->
+<!-- ================================================= -->
 
 <text
     x="600"
-    y="215"
+    y="260"
     text-anchor="middle"
     font-family="monospace"
-    font-size="14"
+    font-size="12"
     letter-spacing="2"
-    fill="#a5ffbd">
+    fill="#94a3b8">
 
-    JAVA  •  SPRING BOOT  •  REACT  •  MYSQL
+    JAVA  •  SPRING BOOT  •  REACT  •  MYSQL  •  SECURITY
 
 </text>
 
 
-<!-- ====================================================== -->
-<!-- CYBER STATUS -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- STATUS BAR -->
+<!-- ================================================= -->
 
-<g transform="translate(600 252)">
+<g transform="translate(425 285)">
+
+    <rect
+        width="350"
+        height="32"
+        rx="16"
+        fill="#020617"
+        stroke="#0077ff"
+        stroke-width="1"
+    />
 
     <circle
-        cx="-140"
-        cy="-4"
+        cx="25"
+        cy="16"
         r="5"
-        fill="#00ff41"
+        fill="#27c93f"
         filter="url(#glow)"
     />
 
     <text
-        x="-125"
-        y="1"
+        x="40"
+        y="21"
         font-family="monospace"
-        font-size="13"
-        fill="#00ff41">
+        font-size="11"
+        fill="#27c93f">
 
         SYSTEM ONLINE
 
     </text>
 
-
-    <circle
-        cx="20"
-        cy="-4"
-        r="5"
-        fill="#00ffff"
-        filter="url(#glow)"
+    <line
+        x1="150"
+        y1="8"
+        x2="150"
+        y2="24"
+        stroke="#334155"
     />
 
     <text
-        x="35"
-        y="1"
+        x="170"
+        y="21"
         font-family="monospace"
-        font-size="13"
-        fill="#00ffff">
+        font-size="11"
+        fill="#00e5ff">
 
-        SECURITY ACTIVE
+        BUILDING THE FUTURE
 
     </text>
 
 </g>
 
 
-<!-- ====================================================== -->
-<!-- BOTTOM CYBER LINE -->
-<!-- ====================================================== -->
-
-<path
-    d="M 80 295
-       L 300 295
-       L 325 280
-       L 350 295
-       L 850 295
-       L 875 280
-       L 900 295
-       L 1120 295"
-    fill="none"
-    stroke="url(#neon)"
-    stroke-width="2"
-    filter="url(#glow)"
-/>
-
-
-<!-- ====================================================== -->
-<!-- BOTTOM TEXT -->
-<!-- ====================================================== -->
-
-<text
-    x="600"
-    y="325"
-    text-anchor="middle"
-    font-family="monospace"
-    font-size="13"
-    letter-spacing="4"
-    fill="#00ff41">
-
-    CODE  //  SECURE  //  BUILD  //  INNOVATE
-
-</text>
-
-
-<!-- ====================================================== -->
-<!-- CORNER DECORATIONS -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
+<!-- BOTTOM CIRCUIT -->
+<!-- ================================================= -->
 
 <g
-    stroke="#00ff41"
+    stroke="url(#cyber)"
     stroke-width="2"
     fill="none"
     opacity="0.7">
 
-    <!-- Top Left -->
-    <path d="M35 70 V45 H60"/>
-    <path d="M35 85 V105 H60"/>
+    <path d="M60 325 H230 L250 305 H350"/>
 
-    <!-- Top Right -->
-    <path d="M1165 70 V45 H1140"/>
-    <path d="M1165 85 V105 H1140"/>
-
-    <!-- Bottom Left -->
-    <path d="M35 280 V305 H60"/>
-
-    <!-- Bottom Right -->
-    <path d="M1165 280 V305 H1140"/>
+    <path d="M850 305 H950 L970 325 H1140"/>
 
 </g>
 
 
-<!-- ====================================================== -->
+<!-- Circuit nodes -->
+
+<g fill="#00e5ff" filter="url(#glow)">
+
+    <circle cx="60" cy="325" r="3"/>
+    <circle cx="350" cy="305" r="3"/>
+    <circle cx="850" cy="305" r="3"/>
+    <circle cx="1140" cy="325" r="3"/>
+
+</g>
+
+
+<!-- ================================================= -->
+<!-- CORNER MARKS -->
+<!-- ================================================= -->
+
+<g
+    stroke="#00e5ff"
+    stroke-width="2"
+    fill="none"
+    opacity="0.7">
+
+    <path d="M25 55 V25 H55"/>
+    <path d="M1175 55 V25 H1145"/>
+
+    <path d="M25 295 V325 H55"/>
+    <path d="M1175 295 V325 H1145"/>
+
+</g>
+
+
+<!-- ================================================= -->
 <!-- SCAN LINE -->
-<!-- ====================================================== -->
+<!-- ================================================= -->
 
-<rect
-    x="80"
-    y="275"
-    width="1040"
-    height="1"
-    fill="#00ff41"
-    opacity="0.25"
-/>
-
-</svg>
+<line
+    x1="0"
+    y1="340"
+    x2="1200"
