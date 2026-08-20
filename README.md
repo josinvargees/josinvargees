@@ -1,9 +1,6 @@
 <div align="center">
   <img src="./assets/banner.svg" width="100%">
 </div>
-# 🟢 ABOUT ME
-
-<img align="right" width="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3J0eDhxNGxjdGVvZWRtY3d5aWJ5c2xjZHZxZWc1bXQ5Z2J5aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif">
 
 ### 👨‍💻 About?
 
