@@ -93,3 +93,66 @@ Status      : Open To Work
 ![Postman](https://img.shields.io/badge/Postman-90%25-39FF14?style=for-the-badge&logo=postman&logoColor=black)
 
 ---
+# 🛡 URL SHIELD
+
+<details>
+<summary><b>📋 View Project Details</b></summary>
+
+### Description
+
+Cyber Security project for detecting suspicious and malicious URLs.
+
+### Features
+
+- URL Analysis
+- Safe Link Detection
+- Threat Monitoring
+- Risk Classification
+- Security Verification
+
+### Future Features
+
+- Phishing Detection
+- Malware URL Detection
+- Blacklist Integration
+- Real-Time URL Scanning
+
+### Tech Stack
+
+| Layer | Technology |
+|---------|-----------|
+| Backend | Java |
+| Framework | Spring Boot |
+| Database | MySQL |
+
+</details>
+
+# 🍔 FOOD ORDERING SYSTEM
+
+<details>
+<summary><b>📋 View Project Details</b></summary>
+
+### Description
+
+A full-stack food ordering platform built using Spring Boot and React.
+
+### Features
+
+- User Registration & Login
+- JWT Authentication
+- Food Management
+- Cart Management
+- Order Placement
+- Order History
+- Responsive UI
+
+### Tech Stack
+
+| Layer | Technology |
+|---------|-----------|
+| Frontend | React.js |
+| Backend | Spring Boot |
+| Database | MySQL |
+| Security | JWT + Spring Security |
+
+</details>
