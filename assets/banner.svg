@@ -3,11 +3,11 @@
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#001a00"/>
+      <stop offset="100%" stop-color="#001A00"/>
     </linearGradient>
 
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -18,12 +18,11 @@
   <!-- Background -->
   <rect width="1280" height="320" fill="url(#bg)"/>
 
-  <!-- Terminal Dots -->
-  <circle cx="30" cy="30" r="6" fill="#ff5f56"/>
-  <circle cx="55" cy="30" r="6" fill="#ffbd2e"/>
-  <circle cx="80" cy="30" r="6" fill="#27c93f"/>
+  <!-- Terminal Header -->
+  <circle cx="30" cy="30" r="6" fill="#FF5F56"/>
+  <circle cx="55" cy="30" r="6" fill="#FFBD2E"/>
+  <circle cx="80" cy="30" r="6" fill="#27C93F"/>
 
-  <!-- Header -->
   <text x="105" y="35"
         fill="#39FF14"
         font-family="monospace"
@@ -36,53 +35,53 @@
         fill="#39FF14"
         font-family="monospace"
         font-size="18">
-        > initializing_secure_environment...
+&gt; initializing_secure_environment...
   </text>
 
   <text x="60" y="125"
         fill="#90EE90"
         font-family="monospace"
         font-size="15">
-        [OK] java_backend ........ ACTIVE
+[OK] java_backend ........ ACTIVE
   </text>
 
   <text x="60" y="150"
         fill="#90EE90"
         font-family="monospace"
         font-size="15">
-        [OK] spring_boot ......... ACTIVE
+[OK] spring_boot ......... ACTIVE
   </text>
 
   <text x="60" y="175"
         fill="#90EE90"
         font-family="monospace"
         font-size="15">
-        [OK] react_frontend ...... ACTIVE
+[OK] react_frontend ...... ACTIVE
   </text>
 
   <text x="60" y="200"
         fill="#90EE90"
         font-family="monospace"
         font-size="15">
-        [OK] mysql_database ...... ACTIVE
+[OK] mysql_database ...... ACTIVE
   </text>
 
   <text x="60" y="235"
         fill="#39FF14"
         font-family="monospace"
         font-size="16">
-        ACCESS GRANTED
+ACCESS GRANTED
   </text>
 
-  <!-- Main Name -->
+  <!-- Main Title -->
   <text x="760" y="145"
         text-anchor="middle"
         fill="#39FF14"
         font-family="monospace"
-        font-size="62"
+        font-size="64"
         font-weight="bold"
         filter="url(#glow)">
-        JOSIN V
+JOSIN V
   </text>
 
   <text x="760" y="190"
@@ -90,7 +89,7 @@
         fill="#90EE90"
         font-family="monospace"
         font-size="24">
-        JAVA FULL STACK DEVELOPER
+JAVA FULL STACK DEVELOPER
   </text>
 
   <text x="760" y="225"
@@ -98,41 +97,68 @@
         fill="#39FF14"
         font-family="monospace"
         font-size="16">
-        SPRING BOOT • REACT • MYSQL • REST API
+SPRING BOOT • REACT • MYSQL • REST API
   </text>
 
-  <!-- Decorative Circuit -->
-  <path d="M1080 90 L1180 90 L1180 140 L1230 140"
+  <!-- Skills Box -->
+  <rect x="980" y="70" width="240" height="160"
+        rx="10"
+        fill="none"
         stroke="#39FF14"
-        stroke-width="3"
-        fill="none"/>
+        stroke-width="2"/>
 
-  <circle cx="1080" cy="90" r="5" fill="#39FF14"/>
-  <circle cx="1180" cy="140" r="5" fill="#39FF14"/>
-  <circle cx="1230" cy="140" r="5" fill="#39FF14"/>
-
-  <path d="M1040 210 L1140 210 L1140 250 L1220 250"
-        stroke="#39FF14"
-        stroke-width="3"
-        fill="none"/>
-
-  <circle cx="1040" cy="210" r="5" fill="#39FF14"/>
-  <circle cx="1140" cy="250" r="5" fill="#39FF14"/>
-  <circle cx="1220" cy="250" r="5" fill="#39FF14"/>
-
-  <!-- Bottom Status -->
-  <text x="60" y="295"
+  <text x="1000" y="100"
         fill="#39FF14"
         font-family="monospace"
-        font-size="13">
-        SYSTEM STATUS : ONLINE
+        font-size="14">
+SKILLS
   </text>
 
-  <text x="1080" y="295"
-        fill="#39FF14"
+  <text x="1000" y="130"
+        fill="#90EE90"
         font-family="monospace"
         font-size="13">
-        SECURITY LEVEL : HIGH
+☕ Java
+  </text>
+
+  <text x="1000" y="155"
+        fill="#90EE90"
+        font-family="monospace"
+        font-size="13">
+🍃 Spring Boot
+  </text>
+
+  <text x="1000" y="180"
+        fill="#90EE90"
+        font-family="monospace"
+        font-size="13">
+⚛ React.js
+  </text>
+
+  <text x="1000" y="205"
+        fill="#90EE90"
+        font-family="monospace"
+        font-size="13">
+🗄 MySQL
+  </text>
+
+  <!-- Footer -->
+  <line x1="0" y1="290" x2="1280" y2="290"
+        stroke="#39FF14"
+        stroke-width="1"/>
+
+  <text x="50" y="308"
+        fill="#39FF14"
+        font-family="monospace"
+        font-size="12">
+SYSTEM STATUS : ONLINE
+  </text>
+
+  <text x="1080" y="308"
+        fill="#39FF14"
+        font-family="monospace"
+        font-size="12">
+SECURITY LEVEL : HIGH
   </text>
 
 </svg>
