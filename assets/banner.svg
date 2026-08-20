@@ -3,30 +3,53 @@ xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="background"
+<!-- Dark Background -->
+
+<linearGradient id="bg"
 x1="0%" y1="0%"
 x2="100%" y2="100%">
 
-<stop offset="0%" stop-color="#050505"/>
-<stop offset="45%" stop-color="#17002d"/>
-<stop offset="100%" stop-color="#050505"/>
+<stop offset="0%" stop-color="#000000"/>
+<stop offset="50%" stop-color="#001a0b"/>
+<stop offset="100%" stop-color="#000000"/>
 
 </linearGradient>
 
-<linearGradient id="neon"
+<!-- Hacker Green -->
+
+<linearGradient id="green"
 x1="0%" y1="0%"
 x2="100%" y2="0%">
 
-<stop offset="0%" stop-color="#00ffff"/>
-<stop offset="50%" stop-color="#8a2be2"/>
-<stop offset="100%" stop-color="#ff00ff"/>
+<stop offset="0%" stop-color="#00ff41"/>
+<stop offset="50%" stop-color="#39ff14"/>
+<stop offset="100%" stop-color="#00ff9d"/>
 
 </linearGradient>
+
+<!-- Glow -->
 
 <filter id="glow">
 
 <feGaussianBlur
-stdDeviation="7"
+stdDeviation="5"
+result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<!-- Strong Glow -->
+
+<filter id="strongGlow">
+
+<feGaussianBlur
+stdDeviation="10"
 result="blur"/>
 
 <feMerge>
@@ -40,149 +63,383 @@ result="blur"/>
 
 </defs>
 
-<!-- Background -->
+
+<!-- ===================================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================================== -->
 
 <rect
 width="1200"
 height="350"
-fill="url(#background)"/>
+fill="url(#bg)"/>
 
-<!-- Stars -->
 
-<g fill="#ffffff">
+<!-- ===================================================== -->
+<!-- MATRIX BACKGROUND -->
+<!-- ===================================================== -->
 
-<circle cx="100" cy="65" r="2"/>
-<circle cx="180" cy="115" r="2"/>
-<circle cx="300" cy="55" r="2"/>
-<circle cx="900" cy="70" r="2"/>
-<circle cx="1040" cy="120" r="2"/>
-<circle cx="1130" cy="60" r="2"/>
-<circle cx="780" cy="45" r="2"/>
-<circle cx="430" cy="95" r="2"/>
+<g
+font-family="monospace"
+font-size="14"
+fill="#00ff41"
+opacity="0.12">
+
+<text x="20" y="30">01001010</text>
+<text x="20" y="55">11010101</text>
+<text x="20" y="80">00110110</text>
+<text x="20" y="105">10101001</text>
+<text x="20" y="130">01100101</text>
+<text x="20" y="155">11001100</text>
+<text x="20" y="180">01010101</text>
+<text x="20" y="205">10011001</text>
+<text x="20" y="230">01101110</text>
+<text x="20" y="255">11001010</text>
+<text x="20" y="280">00101101</text>
+<text x="20" y="305">10110110</text>
+
+<text x="1050" y="30">10101010</text>
+<text x="1050" y="55">01100110</text>
+<text x="1050" y="80">11001101</text>
+<text x="1050" y="105">00110101</text>
+<text x="1050" y="130">10101010</text>
+<text x="1050" y="155">01001101</text>
+<text x="1050" y="180">11100011</text>
+<text x="1050" y="205">00110010</text>
+<text x="1050" y="230">11010101</text>
+<text x="1050" y="255">01010110</text>
+<text x="1050" y="280">10101001</text>
+<text x="1050" y="305">01101010</text>
 
 </g>
 
-<!-- Neon Planet -->
 
-<circle
-cx="150"
-cy="190"
-r="65"
-fill="#19003d"
-stroke="#00ffff"
-stroke-width="4"
+<!-- ===================================================== -->
+<!-- TERMINAL WINDOW -->
+<!-- ===================================================== -->
+
+<rect
+x="60"
+y="55"
+width="430"
+height="235"
+rx="10"
+fill="#020402"
+stroke="#00ff41"
+stroke-width="2"
+opacity="0.95"
 filter="url(#glow)"/>
 
-<ellipse
-cx="150"
-cy="190"
-rx="100"
-ry="25"
-fill="none"
-stroke="#ff00ff"
-stroke-width="5"
-transform="rotate(-15 150 190)"
-filter="url(#glow)"/>
 
-<!-- Main Glow -->
+<!-- Terminal Header -->
+
+<rect
+x="60"
+y="55"
+width="430"
+height="35"
+rx="10"
+fill="#061006"/>
 
 <circle
-cx="600"
-cy="160"
-r="110"
-fill="#8a2be2"
-opacity="0.08"/>
+cx="82"
+cy="72"
+r="6"
+fill="#ff3b30"/>
 
-<!-- Title -->
+<circle
+cx="102"
+cy="72"
+r="6"
+fill="#ffcc00"/>
+
+<circle
+cx="122"
+cy="72"
+r="6"
+fill="#00ff41"/>
 
 <text
-x="600"
-y="125"
-text-anchor="middle"
-font-family="Arial, sans-serif"
-font-size="62"
-font-weight="bold"
-fill="#ffffff"
-filter="url(#glow)">
+x="150"
+y="78"
+font-family="monospace"
+font-size="13"
+fill="#00ff41">
 
-JOSIN VARGEES
+root@josinvargees:~$
 
 </text>
 
-<!-- Developer -->
+
+<!-- Terminal Code -->
 
 <text
-x="600"
+x="82"
+y="120"
+font-family="monospace"
+font-size="15"
+fill="#00ff41">
+
+$ whoami
+
+</text>
+
+<text
+x="82"
+y="145"
+font-family="monospace"
+font-size="15"
+fill="#ffffff">
+
+josinvargees
+
+</text>
+
+<text
+x="82"
 y="175"
+font-family="monospace"
+font-size="15"
+fill="#00ff41">
+
+$ ./developer.sh
+
+</text>
+
+<text
+x="82"
+y="200"
+font-family="monospace"
+font-size="14"
+fill="#ffffff">
+
+[+] Java Developer
+
+</text>
+
+<text
+x="82"
+y="222"
+font-family="monospace"
+font-size="14"
+fill="#ffffff">
+
+[+] Spring Boot
+
+</text>
+
+<text
+x="82"
+y="244"
+font-family="monospace"
+font-size="14"
+fill="#ffffff">
+
+[+] Cyber Security
+
+</text>
+
+<text
+x="82"
+y="268"
+font-family="monospace"
+font-size="14"
+fill="#00ff41">
+
+[✓] SYSTEM READY_
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- CENTER HACKER SYMBOL -->
+<!-- ===================================================== -->
+
+<circle
+cx="650"
+cy="120"
+r="55"
+fill="#001a0b"
+stroke="#00ff41"
+stroke-width="3"
+filter="url(#strongGlow)"/>
+
+<!-- Shield -->
+
+<path
+d="M650 75
+L685 90
+L680 125
+Q650 155 620 125
+L615 90
+Z"
+fill="none"
+stroke="#00ff41"
+stroke-width="4"
+filter="url(#glow)"/>
+
+<!-- Lock -->
+
+<rect
+x="635"
+y="105"
+width="30"
+height="27"
+rx="4"
+fill="none"
+stroke="#ffffff"
+stroke-width="3"/>
+
+<path
+d="M641 105 V96
+Q641 85 650 85
+Q659 85 659 96
+V105"
+fill="none"
+stroke="#ffffff"
+stroke-width="3"/>
+
+<circle
+cx="650"
+cy="117"
+r="3"
+fill="#00ff41"/>
+
+
+<!-- ===================================================== -->
+<!-- MAIN TITLE -->
+<!-- ===================================================== -->
+
+<text
+x="870"
+y="115"
 text-anchor="middle"
 font-family="monospace"
-font-size="24"
+font-size="48"
 font-weight="bold"
-fill="#00ffff">
+fill="#00ff41"
+filter="url(#strongGlow)">
+
+JOSIN VARGEEZ
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- HACKER SUBTITLE -->
+<!-- ===================================================== -->
+
+<text
+x="870"
+y="155"
+text-anchor="middle"
+font-family="monospace"
+font-size="19"
+font-weight="bold"
+fill="#ffffff">
 
 JAVA FULL STACK DEVELOPER
 
 </text>
 
-<!-- Technologies -->
+
+<!-- ===================================================== -->
+<!-- SECURITY TEXT -->
+<!-- ===================================================== -->
 
 <text
-x="600"
-y="215"
+x="870"
+y="185"
 text-anchor="middle"
 font-family="monospace"
-font-size="17"
-fill="#ff00ff">
+font-size="14"
+fill="#00ff41">
 
-JAVA • SPRING BOOT • REACT • MYSQL • REST API
+[ CYBER SECURITY • BACKEND • FULL STACK ]
 
 </text>
 
-<!-- Neon Grid -->
+
+<!-- ===================================================== -->
+<!-- COMMAND -->
+<!-- ===================================================== -->
+
+<text
+x="870"
+y="225"
+text-anchor="middle"
+font-family="monospace"
+font-size="16"
+fill="#ffffff">
+
+$ ACCESS_GRANTED_
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- TECHNOLOGIES -->
+<!-- ===================================================== -->
+
+<text
+x="870"
+y="250"
+text-anchor="middle"
+font-family="monospace"
+font-size="13"
+fill="#00ff41">
+
+JAVA  |  SPRING BOOT  |  REACT  |  MYSQL
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- SCAN LINE -->
+<!-- ===================================================== -->
+
+<rect
+x="0"
+y="305"
+width="1200"
+height="2"
+fill="#00ff41"
+opacity="0.5"
+filter="url(#glow)"/>
+
+
+<!-- ===================================================== -->
+<!-- MATRIX BOTTOM -->
+<!-- ===================================================== -->
 
 <g
-stroke="url(#neon)"
-stroke-width="1"
-opacity="0.35">
+font-family="monospace"
+font-size="12"
+fill="#00ff41"
+opacity="0.3">
 
-<path d="M0 260 H1200"/>
-<path d="M0 280 H1200"/>
-<path d="M0 300 H1200"/>
-<path d="M0 320 H1200"/>
-<path d="M0 340 H1200"/>
-
-<path d="M100 250 L500 350"/>
-<path d="M250 250 L550 350"/>
-<path d="M400 250 L600 350"/>
-<path d="M550 250 L650 350"/>
-<path d="M700 250 L700 350"/>
-<path d="M850 250 L750 350"/>
-<path d="M1000 250 L800 350"/>
-<path d="M1150 250 L850 350"/>
+<text x="540" y="325">01001101</text>
+<text x="650" y="325">11001001</text>
+<text x="760" y="325">10110110</text>
+<text x="870" y="325">01100101</text>
+<text x="980" y="325">10011010</text>
 
 </g>
 
-<!-- Neon Wave -->
 
-<path
-d="M20 245
-Q200 190 400 240
-T800 230
-T1180 210"
+<!-- ===================================================== -->
+<!-- BOTTOM STATUS -->
+<!-- ===================================================== -->
 
-stroke="url(#neon)"
-stroke-width="5"
-fill="none"
-filter="url(#glow)"/>
+<text
+x="600"
+y="345"
+text-anchor="middle"
+font-family="monospace"
+font-size="12"
+fill="#00ff41">
 
-<!-- Bottom Line -->
+SYSTEM ONLINE • SECURITY ACTIVE • CODE MODE: ON
 
-<rect
-x="150"
-y="330"
-width="900"
-height="3"
-fill="url(#neon)"
-filter="url(#glow)"/>
+</text>
 
 </svg>
