@@ -1,188 +1,256 @@
 <div align="center">
+  <img src="./assets/banner.svg" width="100%">
+</div>
+<div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Josin Vargees Banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=280&color=0:000000,100:001a00&text=JOSIN%20V&fontColor=39FF14&fontSize=60&animation=fade"/>
 
-<br><br>
+```bash
+> initializing_secure_environment...
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=750&lines=Java+Full+Stack+Developer;Spring+Boot+Developer;React+Developer;MySQL+Developer;REST+API+Developer;Cyber+Security+Enthusiast;Building+Real+World+Projects" />
+[OK] java_backend ........ ACTIVE
+[OK] spring_boot ......... ACTIVE
+[OK] react_frontend ...... ACTIVE
+[OK] mysql_database ...... ACTIVE
 
-<br><br>
+ACCESS GRANTED
+```
 
-<img src="https://komarev.com/ghpvc/?username=josinvargees&label=PROFILE%20VIEWS&color=8A2BE2&style=for-the-badge"/>
+### 💻 JAVA FULL STACK DEVELOPER
 
 </div>
 
 ---
 
-# 👋 Hello, I'm Josin Vargees
+# 🟢 ABOUT ME
+
+```yaml
+Name      : Josin V
+Role      : Java Full Stack Developer
+Location  : Chennai, Tamil Nadu, India
+
+Passionate About:
+  - Backend Development
+  - Secure Web Applications
+  - REST API Development
+  - Full Stack Development
+
+Current Focus:
+  - Spring Boot Enterprise Applications
+  - React Frontend Development
+  - System Design Fundamentals
+
+Career Goal:
+  - Become a Skilled Java Full Stack Developer
+  - Build Scalable Applications
+  - Join a Leading Product-Based Company
+
+Strengths:
+  - Problem Solving
+  - Fast Learner
+  - Team Collaboration
+  - Continuous Learning
+```
+
+---
+
+# 🔐 TECH SKILLS
+
+## ☕ Programming Languages
+
+```bash
+✔ Java
+✔ JavaScript
+✔ SQL
+✔ HTML5
+✔ CSS3
+```
+
+## 🚀 Backend Development
+
+```bash
+✔ Core Java
+✔ OOP Concepts
+✔ Collections Framework
+✔ Exception Handling
+✔ JDBC
+✔ Spring Framework
+✔ Spring Boot
+✔ Spring Security
+✔ JWT Authentication
+✔ REST API Development
+✔ Maven
+✔ Lombok
+```
+
+## ⚛ Frontend Development
+
+```bash
+✔ React.js
+✔ JSX
+✔ Hooks
+✔ State Management
+✔ Responsive Design
+✔ HTML5
+✔ CSS3
+✔ JavaScript ES6+
+```
+
+## 🗄 Database Management
+
+```bash
+✔ MySQL
+✔ CRUD Operations
+✔ SQL Queries
+✔ Joins
+✔ Relationships
+✔ Database Design
+✔ Data Modeling
+```
+
+## 🔧 Development Tools
+
+```bash
+✔ Git
+✔ GitHub
+✔ Postman
+✔ IntelliJ IDEA
+✔ VS Code
+✔ Maven
+```
+
+## 🛡 Security
+
+```bash
+✔ JWT Authentication
+✔ Spring Security
+✔ Role-Based Authorization
+✔ Password Encryption
+✔ Secure REST APIs
+```
+
+---
+
+# 🍔 FOOD ORDERING SYSTEM
+
+```yaml
+Project Name : Food Ordering System
+Status       : Completed
+Category     : Full Stack Web Application
+
+Description:
+  A complete food ordering platform that allows users
+  to browse food items, manage carts, place orders,
+  and securely authenticate using JWT.
+
+Frontend:
+  - React.js
+  - HTML5
+  - CSS3
+  - JavaScript
+
+Backend:
+  - Java
+  - Spring Boot
+  - Spring Security
+  - REST APIs
+
+Database:
+  - MySQL
+
+Security:
+  - JWT Authentication
+  - Role-Based Access Control
+
+Modules:
+  - User Registration
+  - User Login
+  - Food Management
+  - Cart Management
+  - Order Placement
+  - Order History
+  - User Profile
+
+Features:
+  ✔ User Registration & Login
+  ✔ JWT Authentication
+  ✔ Add To Cart
+  ✔ Remove From Cart
+  ✔ Quantity Management
+  ✔ Place Orders
+  ✔ View Order History
+  ✔ Responsive User Interface
+  ✔ MySQL Data Storage
+  ✔ RESTful Architecture
+
+Technical Highlights:
+  ✔ Layered Architecture
+  ✔ DTO Pattern
+  ✔ Repository Pattern
+  ✔ Exception Handling
+  ✔ Secure JWT Login
+  ✔ API Testing Using Postman
+```
+
+---
+
+# 🛡 URL SHIELD
+
+```yaml
+Project Name : URL Shield
+Status       : In Development
+Category     : Cyber Security Project
+
+Description:
+  URL Shield is a cyber security application designed
+  to analyze and validate URLs by identifying
+  suspicious, unsafe, and potentially malicious links.
+
+Objective:
+  To improve online safety by helping users
+  verify URLs before visiting websites.
+
+Backend:
+  - Java
+  - Spring Boot
+
+Database:
+  - MySQL
+
+Core Features:
+  ✔ URL Analysis
+  ✔ Safe Link Detection
+  ✔ Threat Monitoring
+  ✔ Risk Classification
+  ✔ Security Verification
+
+Future Enhancements:
+  ✔ Phishing Detection
+  ✔ Malware URL Detection
+  ✔ Blacklist Integration
+  ✔ Real-Time URL Scanning
+  ✔ Security Dashboard
+  ✔ Risk Score Generation
+
+Technical Highlights:
+  ✔ REST APIs
+  ✔ Secure Backend Architecture
+  ✔ Database Logging
+  ✔ Validation Framework
+  ✔ Scalable Design
+```
+
+---
 
 <div align="center">
 
-### 💻 Java Full Stack Developer
+```bash
+SYSTEM STATUS : ONLINE
+SECURITY LEVEL: HIGH
+```
 
-**Java • Spring Boot • React • MySQL • REST API**
+<img src="https://komarev.com/ghpvc/?username=josinvargees&color=39FF14&style=for-the-badge"/>
 
-</div>
-
----
-
-## 👨‍💻 About Me
-
-<img align="right" width="280" src="./assets/profile.svg"/>
-
-- 🎓 Computer Science Engineering Student
-- 💻 Java Full Stack Developer
-- ☕ Passionate about Java
-- 🌱 Currently improving Spring Boot
-- ⚛️ Building React applications
-- 🗄️ Working with MySQL
-- 🔐 Interested in Cyber Security
-- 🚀 Building real-world applications
-- 📚 Learning Data Structures & Algorithms
-- 🔧 Using Git and GitHub for development
-
-<br clear="right"/>
-
----
-
-# 🛠️ Tech Stack
-
-## 💻 Programming Languages
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" />
-
-</p>
-
----
-
-## ⚙️ Backend Development
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=spring,maven" />
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST%20API-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>
-
-</p>
-
----
-
-## 🎨 Frontend Development
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=react,vite,bootstrap" />
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-</p>
-
----
-
-## 🗄️ Database
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql" />
-
-</p>
-
----
-
-## 🔧 Tools
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman,docker" />
-
-</p>
-
----
-
-# 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="180"
-src="https://github-readme-stats.vercel.app/api?username=josinvargees&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-
-<img height="180"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=josinvargees&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+### ⚡ CODE • BUILD • LEARN • REPEAT ⚡
 
 </div>
-
----
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img
-src="https://streak-stats.demolab.com?user=josinvargees&theme=tokyonight&hide_border=true&border_radius=10"
-width="70%"
-/>
-
-</div>
-
----
-
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=josinvargees&theme=tokyonight&no-frame=true&no-bg=true&margin-w=5&row=2&column=4"
-width="90%"
-/>
-
-</div>
-
----
-
-# 📈 GitHub Contribution Activity
-
-<div align="center">
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=josinvargees&bg_color=050505&color=00f7ff&line=8a2be2&point=ffffff&area=true&hide_border=true"
-width="100%"
-/>
-
-</div>
-
----
-
-# 🚀 Featured Projects
-
-## 🔐 URL SHIELD
-
-### 🛡️ Intelligent URL Security Analysis System
-
-URL Shield is a security-focused application designed to analyze URLs and identify potentially dangerous or suspicious websites.
-
-### ✨ Features
-
-```text
-🔍 URL Analysis
-🛡️ Risk Score Calculation
-🌐 Domain Analysis
-🔐 HTTPS Detection
-🚨 Suspicious URL Detection
-📊 Security Status
-📈 Risk Analysis
-🗄️ MySQL Storage
-🔌 REST API
