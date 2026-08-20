@@ -1,199 +1,138 @@
-<svg width="1200" height="350" viewBox="0 0 1200 350"
-     xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <!-- Background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#030604"/>
-      <stop offset="50%" stop-color="#07130b"/>
-      <stop offset="100%" stop-color="#020303"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#001a00"/>
     </linearGradient>
 
-    <!-- Neon glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-
-    <!-- Grid -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40"
-            fill="none"
-            stroke="#00ff66"
-            stroke-opacity="0.08"
-            stroke-width="1"/>
-    </pattern>
-
-    <!-- Scanlines -->
-    <pattern id="scanlines" width="4" height="8"
-             patternUnits="userSpaceOnUse">
-      <rect width="4" height="1"
-            fill="#00ff66"
-            opacity="0.035"/>
-    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="350" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#bg)"/>
 
-  <!-- Cyber grid -->
-  <rect width="1200" height="350" fill="url(#grid)"/>
+  <!-- Terminal Dots -->
+  <circle cx="30" cy="30" r="6" fill="#ff5f56"/>
+  <circle cx="55" cy="30" r="6" fill="#ffbd2e"/>
+  <circle cx="80" cy="30" r="6" fill="#27c93f"/>
 
-  <!-- Scanline effect -->
-  <rect width="1200" height="350" fill="url(#scanlines)"/>
-
-  <!-- Ambient neon glow -->
-  <circle cx="80" cy="80" r="100"
-          fill="#00ff66"
-          opacity="0.08"
-          filter="url(#softGlow)"/>
-
-  <circle cx="1120" cy="280" r="120"
-          fill="#00ff66"
-          opacity="0.06"
-          filter="url(#softGlow)"/>
-
-  <!-- Top terminal bar -->
-  <rect x="55" y="35" width="1090" height="45"
-        rx="8"
-        fill="#050b07"
-        stroke="#00ff66"
-        stroke-opacity="0.45"/>
-
-  <!-- Terminal buttons -->
-  <circle cx="80" cy="57" r="6" fill="#ff3b30"/>
-  <circle cx="100" cy="57" r="6" fill="#ffcc00"/>
-  <circle cx="120" cy="57" r="6" fill="#00ff66"/>
-
-  <!-- Terminal title -->
-  <text x="150" y="63"
-        fill="#00ff66"
+  <!-- Header -->
+  <text x="105" y="35"
+        fill="#39FF14"
         font-family="monospace"
         font-size="16">
-    root@cyber-node:~#
+        root@josin:~$
   </text>
 
-  <!-- Main terminal prompt -->
-  <text x="75" y="135"
-        fill="#00ff66"
+  <!-- Left Terminal -->
+  <text x="60" y="90"
+        fill="#39FF14"
         font-family="monospace"
-        font-size="22"
-        filter="url(#glow)">
-    &gt; initializing_secure_environment...
+        font-size="18">
+        > initializing_secure_environment...
   </text>
 
-  <text x="75" y="165"
-        fill="#7cffaa"
+  <text x="60" y="125"
+        fill="#90EE90"
         font-family="monospace"
-        font-size="17">
-    [OK] firewall ................. ACTIVE
+        font-size="15">
+        [OK] java_backend ........ ACTIVE
   </text>
 
-  <text x="75" y="190"
-        fill="#7cffaa"
+  <text x="60" y="150"
+        fill="#90EE90"
         font-family="monospace"
-        font-size="17">
-    [OK] threat_detection ........ ACTIVE
+        font-size="15">
+        [OK] spring_boot ......... ACTIVE
   </text>
 
-  <text x="75" y="215"
-        fill="#7cffaa"
+  <text x="60" y="175"
+        fill="#90EE90"
         font-family="monospace"
-        font-size="17">
-    [OK] encrypted_connection .... SECURE
+        font-size="15">
+        [OK] react_frontend ...... ACTIVE
   </text>
 
-  <!-- Main title -->
-  <text x="600" y="275"
+  <text x="60" y="200"
+        fill="#90EE90"
+        font-family="monospace"
+        font-size="15">
+        [OK] mysql_database ...... ACTIVE
+  </text>
+
+  <text x="60" y="235"
+        fill="#39FF14"
+        font-family="monospace"
+        font-size="16">
+        ACCESS GRANTED
+  </text>
+
+  <!-- Main Name -->
+  <text x="760" y="145"
         text-anchor="middle"
-        fill="#00ff66"
+        fill="#39FF14"
         font-family="monospace"
-        font-size="46"
+        font-size="62"
         font-weight="bold"
-        letter-spacing="5"
         filter="url(#glow)">
-    CYBER SECURITY
+        JOSIN V
   </text>
 
-  <!-- Subtitle -->
-  <text x="600" y="305"
+  <text x="760" y="190"
         text-anchor="middle"
-        fill="#9cffbd"
+        fill="#90EE90"
         font-family="monospace"
-        font-size="15"
-        letter-spacing="3">
-    CODE • SECURE • DEFEND • REPEAT
+        font-size="24">
+        JAVA FULL STACK DEVELOPER
   </text>
 
-  <!-- Bottom status -->
-  <text x="75" y="325"
-        fill="#00ff66"
+  <text x="760" y="225"
+        text-anchor="middle"
+        fill="#39FF14"
+        font-family="monospace"
+        font-size="16">
+        SPRING BOOT • REACT • MYSQL • REST API
+  </text>
+
+  <!-- Decorative Circuit -->
+  <path d="M1080 90 L1180 90 L1180 140 L1230 140"
+        stroke="#39FF14"
+        stroke-width="3"
+        fill="none"/>
+
+  <circle cx="1080" cy="90" r="5" fill="#39FF14"/>
+  <circle cx="1180" cy="140" r="5" fill="#39FF14"/>
+  <circle cx="1230" cy="140" r="5" fill="#39FF14"/>
+
+  <path d="M1040 210 L1140 210 L1140 250 L1220 250"
+        stroke="#39FF14"
+        stroke-width="3"
+        fill="none"/>
+
+  <circle cx="1040" cy="210" r="5" fill="#39FF14"/>
+  <circle cx="1140" cy="250" r="5" fill="#39FF14"/>
+  <circle cx="1220" cy="250" r="5" fill="#39FF14"/>
+
+  <!-- Bottom Status -->
+  <text x="60" y="295"
+        fill="#39FF14"
         font-family="monospace"
         font-size="13">
-    STATUS: ONLINE
+        SYSTEM STATUS : ONLINE
   </text>
 
-  <text x="1125" y="325"
-        text-anchor="end"
-        fill="#00ff66"
+  <text x="1080" y="295"
+        fill="#39FF14"
         font-family="monospace"
         font-size="13">
-    ACCESS: GRANTED
+        SECURITY LEVEL : HIGH
   </text>
-
-  <!-- Decorative circuit lines -->
-  <path d="M930 120 H1080 V170"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"
-        opacity="0.5"/>
-
-  <circle cx="930" cy="120" r="4"
-          fill="#00ff66"
-          filter="url(#glow)"/>
-
-  <circle cx="1080" cy="170" r="4"
-          fill="#00ff66"
-          filter="url(#glow)"/>
-
-  <path d="M900 215 H1040 V250 H1120"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"
-        opacity="0.35"/>
-
-  <circle cx="900" cy="215" r="4"
-          fill="#00ff66"/>
-
-  <circle cx="1120" cy="250" r="4"
-          fill="#00ff66"/>
-
-  <!-- Corner brackets -->
-  <path d="M30 105 V90 H45"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"/>
-
-  <path d="M1155 90 H1170 V105"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"/>
-
-  <path d="M30 305 V320 H45"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"/>
-
-  <path d="M1155 320 H1170 V305"
-        fill="none"
-        stroke="#00ff66"
-        stroke-width="2"/>
 
 </svg>
