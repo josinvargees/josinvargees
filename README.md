@@ -1,24 +1,6 @@
 <div align="center">
   <img src="./assets/banner.svg" width="100%">
 </div>
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=280&color=0:000000,100:001a00&text=JOSIN%20V&fontColor=39FF14&fontSize=60&animation=fade"/>
-
-```bash
-> initializing_secure_environment...
-
-[OK] java_backend ........ ACTIVE
-[OK] spring_boot ......... ACTIVE
-[OK] react_frontend ...... ACTIVE
-[OK] mysql_database ...... ACTIVE
-
-ACCESS GRANTED
-```
-
-### 💻 JAVA FULL STACK DEVELOPER
-
-</div>
 
 ---
 
