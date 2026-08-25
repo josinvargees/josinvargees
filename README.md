@@ -1,38 +1,51 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%">
-</div>  
 
-### 👨‍💻 About?
+<img src="./assets/banner.svg" width="100%" alt="Josinvargees"/>
 
-```bash
-Name        : Josin V
-Role        : Java Full Stack Developer
-Location    : Chennai, India
-Experience  : Building Full Stack Applications
-Status      : Open To Work
-```
+# JOSIN V
 
-### 🎯 Current Focus
+### Java Full Stack Developer
 
-- 🚀 Spring Boot Development
-- ⚛ React.js Applications
-- 🔐 Secure REST APIs
-- 🏗 System Design
-- ☁ Cloud Technologies
+Building scalable backend systems and modern web experiences.
 
-### 💡 Strengths
+<p>
+  <a href="mailto:josinvargees@gmail.com">Email</a> •
+  <a href="https://github.com/josinvargees">GitHub</a> •
+  <a href="https://linkedin.com/in/josinvargees">LinkedIn</a>
+</p>
 
-- Problem Solving
-- Clean Code Practices
-- Fast Learning
-- Team Collaboration
-- Continuous Improvement
+</div>
 
 ---
 
-# 🔐 TECH SKILLS
+## About
 
-<div align="center">
+```text
+Name       : Josin V
+Role       : Java Full Stack Developer
+Location   : Chennai,Tamil Nadu,India
+Focus      : Spring Boot, React, REST APIs
+Status     : Open To Work
+```
+
+I specialize in building full-stack applications using Java, Spring Boot, React, and MySQL. My focus is on creating scalable backend systems, clean architectures, secure APIs, and user-friendly web applications.
+
+---
+
+## Core Expertise
+
+- Backend Development
+- Spring Boot Applications
+- REST API Design
+- Database Design
+- Authentication & Security
+- Full Stack Development
+- Problem Solving
+- Clean Architecture
+
+---
+
+## Technology Stack
 
 ### Languages
 
@@ -40,7 +53,7 @@ Status      : Open To Work
 
 ### Backend
 
-<img src="https://skillicons.dev/icons?i=java,spring,maven" />
+<img src="https://skillicons.dev/icons?i=spring,maven" />
 
 ### Frontend
 
@@ -54,186 +67,81 @@ Status      : Open To Work
 
 <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,idea" />
 
-</div>
-
 ---
-# 🛡 URL SHIELD
 
-## 📖 Description
+# Featured Projects
 
-URL Shield is a cyber security application designed to analyze, validate, and classify URLs based on potential security risks. The system helps users identify malicious, suspicious, phishing, or unsafe links before accessing them.
+## URL Shield
 
-The application scans URLs using predefined validation rules and threat detection mechanisms to determine whether a URL is safe or potentially harmful. The goal is to improve online security awareness and protect users from phishing attacks and malicious websites.
+Cybersecurity application designed to analyze and classify URLs based on security risks.
 
-## ✨ Features
-
-### 🔍 URL Analysis
+### Highlights
 
 - URL Validation
-- URL Parsing
-- URL Classification
-- Domain Verification
-
-### 🛡 Security Features
-
-- Safe Link Detection
-- Suspicious URL Detection
-- Risk Classification
-- Threat Monitoring
-
-### 📊 Reporting
-
-- Security Status Reports
-- Risk Level Analysis
-- URL History Tracking
-- Scan Results Dashboard
-
-### 🚨 Threat Detection
-
 - Phishing Detection
-- Malicious Domain Detection
-- Blacklist Verification
-- Unsafe URL Identification
+- Domain Verification
+- Threat Classification
+- Risk Scoring
+- Security Reporting
 
-### 🔐 Future Enhancements
+### Stack
 
-- Real-Time URL Scanning
-- AI-Based Threat Detection
-- Browser Extension Integration
-- Email Link Scanner
-- Security Alert Notifications
-- Threat Intelligence Integration
+```text
+Java
+Spring Boot
+Spring Security
+MySQL
+REST APIs
+```
 
-## 🛠 Tech Stack
+---
 
-### Backend
+## Food Ordering System
 
-- Java
-- Spring Boot
+Full-stack web application for online food ordering with authentication, cart management, and order processing.
+
+### Highlights
+
+- JWT Authentication
 - Spring Security
+- Food Management
+- Shopping Cart
+- Order Processing
 - REST APIs
 
-### Database
+### Stack
 
-- MySQL
-
-### Security Technologies
-
-- URL Validation Engine
-- Threat Detection Logic
-- Blacklist Checking
-- Risk Scoring System
-
-### Tools
-
-- Git
-- GitHub
-- Postman
-- IntelliJ IDEA
-
-### Architecture
-
-- Controller Layer
-- Service Layer
-- Repository Layer
-- Security Layer
-- Validation Layer
-
-## 🎯 Project Objective
-
-To provide a secure platform that helps users verify the safety of URLs before visiting websites, reducing the risk of phishing attacks, malware infections, and other cyber security threats.
-
----
-# 🍔 FOOD ORDERING SYSTEM
-
-## 📖 Description
-
-Food Ordering System is a full-stack web application that enables users to browse food items, add products to a cart, place orders, and track order history through a secure and user-friendly interface. The application is built using Spring Boot for the backend, React.js for the frontend, and MySQL as the database.
-
-The system uses JWT Authentication and Spring Security to provide secure user access and role-based authorization. It follows a layered architecture with RESTful APIs for efficient communication between frontend and backend services.
-
-## ✨ Features
-
-### 👤 User Management
-
-- User Registration
-- User Login
-- JWT Authentication
-- Secure Password Encryption
-- Role-Based Authorization
-
-### 🍕 Food Management
-
-- View Food Menu
-- Search Food Items
-- Food Categories
-- Food Details
-
-### 🛒 Cart Management
-
-- Add Items to Cart
-- Remove Items from Cart
-- Update Quantity
-- View Cart Summary
-
-### 📦 Order Management
-
-- Place Orders
-- Order Confirmation
-- View Order History
-- Order Details
-
-### 🔐 Security Features
-
-- Spring Security
-- JWT Authentication
-- Protected REST APIs
-- Secure User Sessions
-
-### 📊 Additional Features
-
-- REST API Architecture
-- Exception Handling
-- Responsive UI
-- MySQL Data Storage
-- Clean Layered Architecture
-
-## 🛠 Tech Stack
-
-### Frontend
-
-- React.js
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-
-### Backend
-
-- Java
-- Spring Boot
-- Spring Security
-- Spring Data JPA
-- Maven
-
-### Database
-
-- MySQL
-
-### Tools
-
-- Git
-- GitHub
-- Postman
-- IntelliJ IDEA
-- VS Code
-
-### Architecture
-
-- Controller Layer
-- Service Layer
-- Repository Layer
-- DTO Layer
-- Security Layer
+```text
+React.js
+Java
+Spring Boot
+Spring Security
+MySQL
+```
 
 ---
 
+## Current Focus
+
+- Spring Boot Microservices
+- Secure REST APIs
+- React Applications
+- System Design
+- Cloud Technologies
+
+---
+
+## GitHub Statistics
+
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent" />
+</p>
+
+---
+
+<div align="center">
+
+### Building secure, scalable, and elegant software solutions.
+
+</div>
