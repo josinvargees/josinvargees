@@ -1,164 +1,189 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#000000"/>
-      <stop offset="100%" stop-color="#001A00"/>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1280" y2="320">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity="0.25"/>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#bgGradient)"/>
 
-  <!-- Terminal Header -->
-  <circle cx="30" cy="30" r="6" fill="#FF5F56"/>
-  <circle cx="55" cy="30" r="6" fill="#FFBD2E"/>
-  <circle cx="80" cy="30" r="6" fill="#27C93F"/>
+  <!-- Decorative Circles -->
+  <circle cx="1120" cy="80" r="140"
+          stroke="rgba(255,255,255,0.06)"
+          stroke-width="1"
+          fill="none"/>
 
-  <text x="105" y="35"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="16">
-        root@josin:~$
-  </text>
+  <circle cx="1120" cy="80" r="100"
+          stroke="rgba(255,255,255,0.04)"
+          stroke-width="1"
+          fill="none"/>
 
-  <!-- Left Terminal -->
-  <text x="60" y="90"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="18">
-&gt; initializing_secure_environment...
-  </text>
+  <circle cx="180" cy="260" r="90"
+          stroke="rgba(255,255,255,0.05)"
+          stroke-width="1"
+          fill="none"/>
 
-  <text x="60" y="125"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="15">
-[OK] java_backend ........ ACTIVE
-  </text>
-
-  <text x="60" y="150"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="15">
-[OK] spring_boot ......... ACTIVE
-  </text>
-
-  <text x="60" y="175"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="15">
-[OK] react_frontend ...... ACTIVE
-  </text>
-
-  <text x="60" y="200"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="15">
-[OK] mysql_database ...... ACTIVE
-  </text>
-
-  <text x="60" y="235"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="16">
-ACCESS GRANTED
-  </text>
-
-  <!-- Main Title -->
-  <text x="760" y="145"
-        text-anchor="middle"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="64"
-        font-weight="bold"
-        filter="url(#glow)">
-Josinvargees
-  </text>
-
-  <text x="760" y="190"
-        text-anchor="middle"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="24">
-JAVA FULL STACK DEVELOPER
-  </text>
-
-  <text x="760" y="225"
-        text-anchor="middle"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="16">
-SPRING BOOT • REACT • MYSQL • REST API
-  </text>
-
-  <!-- Skills Box -->
-  <rect x="980" y="70" width="240" height="160"
-        rx="10"
-        fill="none"
-        stroke="#39FF14"
-        stroke-width="2"/>
-
-  <text x="1000" y="100"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="14">
-SKILLS
-  </text>
-
-  <text x="1000" y="130"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="13">
-☕ Java
-  </text>
-
-  <text x="1000" y="155"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="13">
-🍃 Spring Boot
-  </text>
-
-  <text x="1000" y="180"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="13">
-⚛ React.js
-  </text>
-
-  <text x="1000" y="205"
-        fill="#90EE90"
-        font-family="monospace"
-        font-size="13">
-🗄 MySQL
-  </text>
-
-  <!-- Footer -->
-  <line x1="0" y1="290" x2="1280" y2="290"
-        stroke="#39FF14"
+  <!-- Top Border -->
+  <line x1="50" y1="45" x2="1230" y2="45"
+        stroke="rgba(255,255,255,0.12)"
         stroke-width="1"/>
 
-  <text x="50" y="308"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="12">
-SYSTEM STATUS : ONLINE
+  <!-- Small Label -->
+  <text x="60"
+        y="32"
+        fill="#999999"
+        font-size="13"
+        font-family="Segoe UI, Arial, sans-serif"
+        letter-spacing="4">
+        JAVA FULL STACK DEVELOPER
   </text>
 
-  <text x="1080" y="308"
-        fill="#39FF14"
-        font-family="monospace"
-        font-size="12">
-SECURITY LEVEL : HIGH
+  <!-- Main Name -->
+  <text x="640"
+        y="145"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        font-size="72"
+        font-weight="700"
+        font-family="Georgia, serif">
+        JOSIN VARGHESE
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640"
+        y="190"
+        text-anchor="middle"
+        fill="#999999"
+        font-size="20"
+        letter-spacing="6"
+        font-family="Segoe UI, Arial, sans-serif">
+        SPRING BOOT • REACT • MYSQL
+  </text>
+
+  <!-- Tagline -->
+  <text x="640"
+        y="225"
+        text-anchor="middle"
+        fill="#BDBDBD"
+        font-size="16"
+        font-family="Segoe UI, Arial, sans-serif">
+        Building scalable backend systems and modern web experiences
+  </text>
+
+  <!-- Left Card -->
+  <rect x="60"
+        y="90"
+        width="250"
+        height="130"
+        rx="18"
+        fill="#0D0D0D"
+        stroke="rgba(255,255,255,0.12)"
+        filter="url(#shadow)"/>
+
+  <text x="85"
+        y="125"
+        fill="#FFFFFF"
+        font-size="18"
+        font-family="Segoe UI">
+        Tech Stack
+  </text>
+
+  <text x="85"
+        y="155"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        JAVA
+  </text>
+
+  <text x="85"
+        y="178"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        SPRING BOOT
+  </text>
+
+  <text x="85"
+        y="201"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        REACT • MYSQL
+  </text>
+
+  <!-- Right Card -->
+  <rect x="970"
+        y="90"
+        width="250"
+        height="130"
+        rx="18"
+        fill="#0D0D0D"
+        stroke="rgba(255,255,255,0.12)"
+        filter="url(#shadow)"/>
+
+  <text x="995"
+        y="125"
+        fill="#FFFFFF"
+        font-size="18"
+        font-family="Segoe UI">
+        Focus Areas
+  </text>
+
+  <text x="995"
+        y="155"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        REST APIs
+  </text>
+
+  <text x="995"
+        y="178"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        Backend Architecture
+  </text>
+
+  <text x="995"
+        y="201"
+        fill="#999999"
+        font-size="14"
+        font-family="Segoe UI">
+        Full Stack Development
+  </text>
+
+  <!-- Bottom Border -->
+  <line x1="50"
+        y1="285"
+        x2="1230"
+        y2="285"
+        stroke="rgba(255,255,255,0.12)"
+        stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="60"
+        y="305"
+        fill="#777777"
+        font-size="12"
+        font-family="Segoe UI">
+        PORTFOLIO • OPEN SOURCE • SOFTWARE ENGINEERING
+  </text>
+
+  <text x="1120"
+        y="305"
+        fill="#777777"
+        font-size="12"
+        font-family="Segoe UI">
+        2026
   </text>
 
 </svg>
